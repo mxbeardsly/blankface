@@ -1,0 +1,51 @@
+# Shorts Engine configuration.
+# Everything the bot decides on its own lives in data/. This file is the
+# handful of knobs a human might ever want to turn.
+
+models:
+  writer: claude-sonnet-5-5      # scripts, ideas, niche research
+  checker: claude-haiku-5-5      # cheap fact and policy check pass
+
+cadence:
+  shorts_per_day_per_niche: 1
+  longform_per_week: 1           # rotates across active niches; set 0 to disable
+  active_niches: 2               # how many niches to test at once
+
+# Where approved videos go. Start with youtube + tiktok; add instagram once
+# the Instagram account is a Business/Creator account linked in Upload-Post.
+platforms:
+  shorts: [youtube, tiktok]
+  longform: [youtube]
+
+review:
+  # Videos only post after you approve them. If you ignore one this long,
+  # it expires instead of posting. Safer than auto posting.
+  expire_after_days: 5
+
+voice:
+  provider: elevenlabs
+  model_id: eleven_multilingual_v2
+  # Default voice. The niche scout may assign a different voice per niche.
+  default_voice_id: JBFqnCBsd6RMkjVDRZzb
+
+video:
+  shorts_target_seconds: 40       # sweet spot 30 to 50
+  longform_target_minutes: 6
+  caption_font: assets/fonts/Poppins-Bold.ttf
+
+budget:
+  # Hard monthly caps. The bot stops producing when an estimate crosses one.
+  anthropic_usd: 25
+  elevenlabs_chars: 100000        # ElevenLabs Creator plan allowance
+
+# Topics the bot must never pick, regardless of how well they pay.
+# Money, health, and legal advice punish AI mistakes; kids content has
+# special YouTube rules; the rest are brand or policy landmines.
+banned_niche_areas:
+  - personal finance or investing advice
+  - medical or health advice
+  - legal advice
+  - content aimed at children
+  - politics or elections
+  - true crime about real victims
+  - gambling or crypto trading
