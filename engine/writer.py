@@ -44,6 +44,7 @@ JSON: {{"title": str (under 70 chars, curiosity, no clickbait lies),
   "hashtags": [str],
   "pinned_comment": str,
   "resources": [str],
+  "destination": str (the single city or region the video is about, plain name like "Edinburgh"; empty string if none),
   "claims": [str]}}"""
 
 CHECK = """You are a strict fact checker and YouTube policy reviewer.

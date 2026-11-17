@@ -43,7 +43,14 @@ def post(video: Path, meta: dict, platforms: list[str], user: str, when: dt.date
     links = {l["name"]: l for l in load("affiliates.json", {}).get(meta["niche"], [])}
     picked = [links[n] for n in s.get("resources", []) if n in links]
     if picked and meta["kind"] == "long":
-        desc += "\n\nLinks mentioned:\n" + "\n".join(f"{l['name']}: {l['url']}" for l in picked)
+        from urllib.parse import quote_plus
+        dest = (s.get("destination") or "").strip()
+
+        def _link(l):
+            if dest and l.get("search_url"):
+                return l["search_url"].format(q=quote_plus(dest), vid=meta["id"][:30])
+            return l["url"]
+        desc += "\n\nLinks mentioned:\n" + "\n".join(f"{l['name']}: {_link(l)}" for l in picked)
         desc += "\n\nSome links are affiliate links. I may earn a commission at no extra cost to you."
     elif links and meta["kind"] == "short":
         desc += "\n\nLinks to everything I recommend are in the channel bio (some are affiliate links)."
