@@ -39,7 +39,7 @@ Guardrails: monthly spend caps in `config.yaml`, banned topic areas
 | Anthropic API | pay as you go, capped at $25 | about $15 to $25 | console.anthropic.com |
 | ElevenLabs | Creator (needs commercial rights) | $22 | elevenlabs.io |
 | Upload-Post | Basic | $24 ($16 if paid yearly) | upload-post.com |
-| Pexels | free API key | $0 | pexels.com/api |
+| Pixabay | free API key | $0 | pixabay.com/api/docs (shown after login) |
 | YouTube Data API | free API key (read only, for stats) | $0 | console.cloud.google.com, enable "YouTube Data API v3", create an API key |
 
 **2. Add them to this repo:** Settings, then Secrets and variables, then
@@ -49,7 +49,7 @@ Actions, then New repository secret. Names must match exactly:
 ANTHROPIC_API_KEY
 ELEVENLABS_API_KEY
 UPLOAD_POST_API_KEY
-PEXELS_API_KEY
+PIXABAY_API_KEY
 YOUTUBE_API_KEY
 ```
 

@@ -48,8 +48,8 @@ def _make_one(niche: dict, kind: str) -> dict:
     avoid, clips, credits, used = visuals.recently_used(), [], [], []
     for i, beat in enumerate(script["beats"]):
         c = visuals.fetch(beat["visual"], portrait, starts[i + 1] - starts[i], avoid)
-        avoid.add(c["pexels_id"])
-        used.append(c["pexels_id"])
+        avoid.add(c["clip_id"])
+        used.append(c["clip_id"])
         clips.append(c["path"])
         if c["credit"]:
             credits.append(c["credit"])

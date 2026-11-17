@@ -40,7 +40,7 @@ def post(video: Path, meta: dict, platforms: list[str], user: str, when: dt.date
     tags = [h.lstrip("#") for h in s.get("hashtags", [])][:10]
     desc = s["description"].strip() + "\n\n" + " ".join("#" + t for t in tags)
     if meta.get("credits"):
-        desc += "\n\nFootage via Pexels: " + ", ".join(sorted(set(meta["credits"])))
+        desc += "\n\nFootage via Pixabay: " + ", ".join(sorted(set(meta["credits"])))
     form = {
         "user": user,
         "external_id": meta["id"],

@@ -1,58 +1,78 @@
-"""Stock footage from Pexels (free for commercial use) with offline fallback."""
+"""Stock footage from Pixabay (free for commercial use) with offline fallback.
+
+Pixabay asks API users to cache searches for 24 hours and avoid mass
+automated querying, so searches are cached on disk and in data/.
+"""
 from __future__ import annotations
 
 import hashlib
 import random
 import subprocess
-from pathlib import Path
+import time
 
 import requests
 
 from .core import OFFLINE, ROOT, env, load, save
 
 CACHE = ROOT / "out" / "cache"
+API = "https://pixabay.com/api/videos/"
+MAX_BYTES = 80 * 1024 * 1024  # skip giant 4K files
 
 
-def _pick_file(video: dict, portrait: bool) -> dict | None:
-    files = [f for f in video.get("video_files", []) if f.get("width") and f.get("height") and f.get("file_type") == "video/mp4"]
-    want = (lambda f: f["height"] > f["width"]) if portrait else (lambda f: f["width"] >= f["height"])
-    files = [f for f in files if want(f) and min(f["width"], f["height"]) >= 720]
-    if not files:
-        return None
-    # smallest file that is still at least 1080 on the short side, else biggest
-    good = sorted((f for f in files if min(f["width"], f["height"]) >= 1080),
-                  key=lambda f: f["width"] * f["height"])
-    return good[0] if good else max(files, key=lambda f: f["width"] * f["height"])
+def _search(query: str) -> list[dict]:
+    cache = load("pixabay_cache.json", {})
+    hit = cache.get(query)
+    if hit and time.time() - hit["t"] < 86400:
+        return hit["hits"]
+    r = requests.get(API, params={"key": env("PIXABAY_API_KEY"), "q": query[:100],
+                                  "video_type": "film", "safesearch": "true",
+                                  "per_page": 30, "order": "popular"}, timeout=30)
+    r.raise_for_status()
+    hits = r.json().get("hits", [])
+    cache = {k: v for k, v in cache.items() if time.time() - v["t"] < 86400}
+    cache[query] = {"t": time.time(), "hits": hits}
+    save("pixabay_cache.json", cache)
+    return hits
+
+
+def _pick_file(hit: dict, portrait: bool) -> dict | None:
+    vids = hit.get("videos", {})
+    # Portrait output is a center crop of landscape footage, so prefer the
+    # 4K rendition when it is a sane size; otherwise the 1080p one.
+    order = ["large", "medium"] if portrait else ["medium", "large"]
+    for k in order:
+        f = vids.get(k) or {}
+        if f.get("url") and 0 < f.get("size", 0) <= MAX_BYTES and min(f["width"], f["height"]) >= 720:
+            return f
+    return None
 
 
 def fetch(query: str, portrait: bool, min_seconds: float, avoid: set[int]) -> dict:
-    """Returns {"path", "pexels_id", "credit"}. Never reuses a clip in `avoid`."""
+    """Returns {"path", "clip_id", "credit"}. Never reuses a clip in `avoid`."""
     CACHE.mkdir(parents=True, exist_ok=True)
     if OFFLINE:
         return _placeholder(query, portrait)
-    r = requests.get("https://api.pexels.com/v1/videos/search",
-                     headers={"Authorization": env("PEXELS_API_KEY")},
-                     params={"query": query, "orientation": "portrait" if portrait else "landscape",
-                             "per_page": 30, "size": "medium"}, timeout=30)
-    r.raise_for_status()
-    vids = [v for v in r.json().get("videos", [])
-            if v["id"] not in avoid and v.get("duration", 0) >= min(min_seconds, 4)]
-    if not vids and " " in query:  # loosen the search
+    hits = [h for h in _search(query)
+            if h["id"] not in avoid and h.get("duration", 0) >= min(min_seconds, 4)]
+    if portrait:  # true vertical clips first, when they exist
+        hits.sort(key=lambda h: h["videos"]["medium"]["height"] > h["videos"]["medium"]["width"],
+                  reverse=True)
+    if not hits and " " in query:  # loosen the search
         return fetch(query.split()[-1], portrait, min_seconds, avoid)
-    random.shuffle(vids)
-    for v in vids[:8]:
-        f = _pick_file(v, portrait)
+    top, rest = hits[:6], hits[6:]
+    random.shuffle(top)
+    for h in top + rest[:6]:
+        f = _pick_file(h, portrait)
         if not f:
             continue
-        p = CACHE / f"px_{v['id']}_{f['width']}x{f['height']}.mp4"
+        p = CACHE / f"pb_{h['id']}_{f['width']}x{f['height']}.mp4"
         if not p.exists():
-            with requests.get(f["link"], stream=True, timeout=120) as d:
+            with requests.get(f["url"], stream=True, timeout=180) as d:
                 d.raise_for_status()
                 with open(p, "wb") as out:
                     for chunk in d.iter_content(1 << 20):
                         out.write(chunk)
-        return {"path": p, "pexels_id": v["id"],
-                "credit": f"{v.get('user', {}).get('name', 'Pexels')} on Pexels"}
+        return {"path": p, "clip_id": h["id"], "credit": f"{h.get('user', 'Pixabay')} on Pixabay"}
     return _placeholder(query, portrait)
 
 
@@ -67,7 +87,7 @@ def _placeholder(query: str, portrait: bool) -> dict:
             f"gradients=s={w}x{h}:c0=0x1b1f3a:c1=0x3a2f6b:x0=0:y0=0:x1={w}:y1={h}:speed=0.02:d=20",
             "-vf", f"hue=h={hue}", "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p",
             str(p)], check=True)
-    return {"path": p, "pexels_id": -hue, "credit": None}
+    return {"path": p, "clip_id": -hue, "credit": None}
 
 
 def recently_used() -> set[int]:
