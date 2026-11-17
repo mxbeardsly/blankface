@@ -98,16 +98,26 @@ def ask(prompt: str, *, model_role: str = "writer", system: str = "",
         if offline_stub is None:
             raise RuntimeError("offline mode needs a stub")
         return offline_stub
-    import anthropic
+    import requests
 
     model = config()["models"][model_role]
-    client = anthropic.Anthropic(api_key=env("ANTHROPIC_API_KEY"))
     if want_json:
         prompt += "\n\nRespond with ONLY valid JSON. No prose, no code fences."
-    msg = client.messages.create(
-        model=model, max_tokens=max_tokens, system=system or anthropic.NOT_GIVEN,
-        messages=[{"role": "user", "content": prompt}],
-    )
+    body = {"model": model, "max_tokens": max_tokens,
+            "messages": [{"role": "user", "content": prompt}]}
+    if system:
+        body["system"] = system
+    r = requests.post("https://api.anthropic.com/v1/messages", json=body, timeout=600, headers={
+        "x-api-key": (env("ANTHROPIC_API_KEY") or "").strip(),
+        "anthropic-version": "2023-06-01", "content-type": "application/json"})
+    if r.status_code >= 400:
+        raise RuntimeError(f"Anthropic API {r.status_code}: {r.text[:300]}")
+    j = r.json()
+
+    from types import SimpleNamespace as NS
+    msg = NS(usage=NS(**{k: j["usage"][k] for k in ("input_tokens", "output_tokens")}),
+             content=[NS(type=b["type"], text=b.get("text", "")) for b in j["content"]])
+
     pin, pout = _tier(model)
     add_spend("anthropic_usd",
               (msg.usage.input_tokens * pin + msg.usage.output_tokens * pout) / 1e6)
