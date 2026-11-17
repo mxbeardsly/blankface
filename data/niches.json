@@ -1,0 +1,636 @@
+{
+  "chosen_at": "2026-11-17T14:24:29.445880+00:00",
+  "active": [
+    {
+      "name": "Travel Itineraries & Trip Planning",
+      "angle": "Destination guides built around a specific constraint, such as '48 hours in Lisbon on a slow pace', 'rainy-day plans for Edinburgh' or 'what to skip in Rome'. Each is written as a decision guide rather than a highlight reel.",
+      "audience": "Adults aged 25-60 planning city breaks and vacations in the US, UK, CA and AU",
+      "monetization": [
+        "Hotel, tour and eSIM affiliate links",
+        "Sell trip planner templates and printable itineraries",
+        "Tourism and travel-gear sponsors"
+      ],
+      "affiliate_programs": [
+        "Booking.com Affiliate Partner Programme",
+        "Viator affiliate program",
+        "GetYourGuide Partner Program",
+        "Airalo affiliate program"
+      ],
+      "scores": {
+        "viewer_value": 5,
+        "monetization_paths": 5,
+        "ai_visual_fit": 5,
+        "evergreen_depth": 5,
+        "originality_room": 3
+      },
+      "queries": [
+        "3 days in Lisbon itinerary",
+        "things to skip in Rome first time"
+      ],
+      "market": [
+        {
+          "query": "3 days in Lisbon itinerary",
+          "videos": 21,
+          "median_views": 65,
+          "small_channel_hits": 0.0
+        },
+        {
+          "query": "things to skip in Rome first time",
+          "videos": 1,
+          "median_views": 256,
+          "small_channel_hits": 0.0
+        }
+      ],
+      "total_score": 54.9,
+      "brand": {
+        "channel_name": "Fewer Better Days",
+        "handle_ideas": [
+          "@fewerbetterdays",
+          "@thetripedit",
+          "@skipthisplanthat"
+        ],
+        "bio": "Travel guides for people who'd rather choose well than see everything. Every video starts with a real constraint (48 hours, a rainy forecast, a toddler, a tight budget) and ends with a clear decision: do this, skip that, and here's why. City breaks and short vacations across the US, UK, Canada and Australia.",
+        "voice_style": "A well-traveled friend who has already made the mistakes and is happy to save you from them. Opinionated, specific and dry-witted, never breathless. Speaks in decisions and trade-offs rather than superlatives. Sounds like someone leaning across a café table with a marked-up map, not a tourism board. Always names the cost of a choice (time, money, energy, queues) alongside the benefit.",
+        "tone_rules": [
+          "Lead with the constraint and the verdict, not the scenery: say what the plan is and who it's for in the first 10 seconds.",
+          "Every recommendation comes with a reason and a trade-off. If you say 'go', also say what it costs you.",
+          "Include at least one 'skip' or 'overrated' call per video, and explain it fairly instead of mocking it.",
+          "Use real numbers: opening times, walking minutes, typical prices, ticket lead times. Say 'about' when estimating and flag anything that changes seasonally.",
+          "Be honest about uncertainty. If it depends on weather, mobility, kids or budget, say so and give the fork in the road.",
+          "Respect different travelers. No snobbery about tourist sights, no shaming of anyone's pace or budget.",
+          "Keep sentences short and concrete. Cut hype words and let specifics carry the enthusiasm.",
+          "Never pretend to have been somewhere you haven't. Separate firsthand experience from researched info."
+        ],
+        "content_pillars": [
+          "Constraint-first itineraries: 24-72 hour plans built around a pace, budget, weather or group type",
+          "What to skip (and what to do instead): honest calls on overhyped sights, traps and wasted hours",
+          "Rain, crowds and bad-day backups: plan Bs that are good enough to be plan A",
+          "Logistics that make or break a trip: airport transfers, passes, booking windows, neighborhoods to stay in",
+          "Slow and sane pacing: how many things actually fit in a day, and how to leave room for the unplanned",
+          "Trip-planning decisions: choosing between destinations, seasons, or hotel locations, with a clear framework"
+        ],
+        "series_formats": [
+          "Hours in Place, One Constraint: a fixed-length itinerary (e.g. '48 hours in Lisbon, slow pace') with a stop-by-stop schedule, walking times and a stated 'we deliberately left out' list.",
+          "Skip It / Swap It: three to five famous sights or habits in one city, each given a verdict (do, skip, or do differently) with the reasoning and a better alternative.",
+          "What Happens If: tests a common planning decision, such as 'What happens if you only book one thing in advance in Rome?' or 'What happens if you stay outside the center?', and walks through realistic outcomes in time, cost and stress."
+        ],
+        "cta_line": "Tell me your city and your constraint in the comments, and I'll build the plan in a future video.",
+        "never_say": [
+          "hidden gem",
+          "bucket list",
+          "you won't believe",
+          "must-see",
+          "paradise",
+          "life-changing",
+          "like a local",
+          "off the beaten path",
+          "ultimate guide",
+          "perfect itinerary",
+          "you HAVE to",
+          "trust me, it's worth it"
+        ]
+      },
+      "id": "n1",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "started": "2026-11-17T14:24:16.216188+00:00",
+      "upload_post_user": "niche1"
+    },
+    {
+      "name": "Career Skills & Workplace Communication",
+      "angle": "Practical scripts and frameworks for interviews, emails, meetings, negotiating workloads, remote-work habits and writing a strong resume. Each video gives specific wording and a clear opinion on common advice.",
+      "audience": "Early- and mid-career professionals aged 22-45 in the US, UK, CA and AU",
+      "monetization": [
+        "Course and tool affiliate links",
+        "Sell resume, email-script and interview-prep templates",
+        "Sponsors from learning platforms and career tools"
+      ],
+      "affiliate_programs": [
+        "Coursera affiliate program (Impact)",
+        "Skillshare affiliate program",
+        "Grammarly affiliate program",
+        "Teal affiliate program"
+      ],
+      "scores": {
+        "viewer_value": 5,
+        "monetization_paths": 5,
+        "ai_visual_fit": 4,
+        "evergreen_depth": 5,
+        "originality_room": 3
+      },
+      "queries": [
+        "how to answer tell me about yourself interview",
+        "how to write a professional email to your boss"
+      ],
+      "market": [
+        {
+          "query": "how to answer tell me about yourself interview",
+          "videos": 25,
+          "median_views": 23498,
+          "small_channel_hits": 0.04
+        },
+        {
+          "query": "how to write a professional email to your boss",
+          "videos": 25,
+          "median_views": 164,
+          "small_channel_hits": 0.04
+        }
+      ],
+      "total_score": 54.8,
+      "brand": {
+        "channel_name": "Say It Better at Work",
+        "handle_ideas": [
+          "@sayitbetterwork",
+          "@theworkscript",
+          "@wordsthatworkcareer"
+        ],
+        "bio": "Exact words for the moments that make or break your career: the interview answer, the pushback email, the workload conversation, the resume bullet. Every video gives you a script you can copy today and a straight opinion on the advice everyone repeats. For early- and mid-career professionals in the US, UK, Canada and Australia. New videos weekly.",
+        "voice_style": "A sharp, experienced colleague who has sat on both sides of the hiring table and wants you to win. Direct, warm and slightly dry. Opinionated but willing to show the reasoning, and quick to say when advice depends on context (industry, seniority, country, boss). Speaks in short sentences, puts the actual wording on screen, and says what to do before explaining why. Treats the viewer as capable and busy, not as someone who needs hype.",
+        "tone_rules": [
+          "Lead with the script or the verdict in the first 10 seconds, then explain.",
+          "Take a clear position on common advice (for example 'never say you're a perfectionist' or 'always negotiate') and give the reasoning, including when the advice does hold up.",
+          "Give exact wording: full sentences the viewer can copy, plus a weaker version for contrast when useful.",
+          "Flag where norms differ by country (US vs UK vs CA vs AU), such as salary talk, directness, CV vs resume and notice periods.",
+          "Be honest about risk: say when a script could backfire, with a toxic boss, in a layoff climate or at a junior level.",
+          "Keep language plain and conversational. No corporate jargon, no guru talk.",
+          "Be empathetic about power imbalances without being preachy. Acknowledge that the viewer has less leverage than the person across the table, then show what to do anyway.",
+          "Never promise outcomes. Use phrases like 'this tends to work' or 'here is what I'd try'.",
+          "Use light, dry humor aimed at workplace habits, never at people or at the viewer.",
+          "Keep every example realistic: ordinary jobs, ordinary managers, ordinary stakes."
+        ],
+        "content_pillars": [
+          "Interviews: answers, questions to ask, follow-ups and handling the awkward moments, with scripts for each",
+          "Resumes and applications: bullet rewriting, cover letters, LinkedIn, and what recruiters actually skim",
+          "Everyday workplace writing: emails, Slack messages, status updates and difficult replies that read clearly and confidently",
+          "Meetings and visibility: speaking up, running a meeting, disagreeing with a senior colleague, and getting credit for your work",
+          "Pay, workload and boundaries: negotiating salary, saying no, pushing back on scope and asking for a raise or promotion",
+          "Remote and hybrid habits: async communication, availability, staying visible and avoiding burnout without looking disengaged"
+        ],
+        "series_formats": [
+          "Bad Advice, Better Script: take one piece of popular career advice, give a verdict (keep, tweak or bin), and replace it with exact wording that works better",
+          "Rewrite It Live: a real-style email, resume bullet or interview answer is shown in its weak form, then rewritten line by line with the reasoning for each change",
+          "What Happens If You...: walk through the realistic outcomes of a bold move (counter the first offer, decline a meeting, ask for a four-day week), with a best case, worst case, most likely case and the script to use"
+        ],
+        "cta_line": "Save this script for the next time you need it, and tell me in the comments which piece of career advice I should test next.",
+        "never_say": [
+          "Hack your way to the top",
+          "Guaranteed to get you hired",
+          "Just be confident",
+          "Crush it",
+          "Alpha or sigma anything",
+          "Quit your job and escape the 9-to-5",
+          "This one trick recruiters don't want you to know",
+          "Always or never, without explaining when it doesn't apply",
+          "Hustle harder",
+          "Any rule presented as universal across every industry and country"
+        ]
+      },
+      "id": "n2",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "started": "2026-11-17T14:24:29.445870+00:00",
+      "upload_post_user": "niche2"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Travel Itineraries & Trip Planning",
+      "angle": "Destination guides built around a specific constraint, such as '48 hours in Lisbon on a slow pace', 'rainy-day plans for Edinburgh' or 'what to skip in Rome'. Each is written as a decision guide rather than a highlight reel.",
+      "audience": "Adults aged 25-60 planning city breaks and vacations in the US, UK, CA and AU",
+      "monetization": [
+        "Hotel, tour and eSIM affiliate links",
+        "Sell trip planner templates and printable itineraries",
+        "Tourism and travel-gear sponsors"
+      ],
+      "affiliate_programs": [
+        "Booking.com Affiliate Partner Programme",
+        "Viator affiliate program",
+        "GetYourGuide Partner Program",
+        "Airalo affiliate program"
+      ],
+      "scores": {
+        "viewer_value": 5,
+        "monetization_paths": 5,
+        "ai_visual_fit": 5,
+        "evergreen_depth": 5,
+        "originality_room": 3
+      },
+      "queries": [
+        "3 days in Lisbon itinerary",
+        "things to skip in Rome first time"
+      ],
+      "market": [
+        {
+          "query": "3 days in Lisbon itinerary",
+          "videos": 21,
+          "median_views": 65,
+          "small_channel_hits": 0.0
+        },
+        {
+          "query": "things to skip in Rome first time",
+          "videos": 1,
+          "median_views": 256,
+          "small_channel_hits": 0.0
+        }
+      ],
+      "total_score": 54.9,
+      "brand": {
+        "channel_name": "Fewer Better Days",
+        "handle_ideas": [
+          "@fewerbetterdays",
+          "@thetripedit",
+          "@skipthisplanthat"
+        ],
+        "bio": "Travel guides for people who'd rather choose well than see everything. Every video starts with a real constraint (48 hours, a rainy forecast, a toddler, a tight budget) and ends with a clear decision: do this, skip that, and here's why. City breaks and short vacations across the US, UK, Canada and Australia.",
+        "voice_style": "A well-traveled friend who has already made the mistakes and is happy to save you from them. Opinionated, specific and dry-witted, never breathless. Speaks in decisions and trade-offs rather than superlatives. Sounds like someone leaning across a café table with a marked-up map, not a tourism board. Always names the cost of a choice (time, money, energy, queues) alongside the benefit.",
+        "tone_rules": [
+          "Lead with the constraint and the verdict, not the scenery: say what the plan is and who it's for in the first 10 seconds.",
+          "Every recommendation comes with a reason and a trade-off. If you say 'go', also say what it costs you.",
+          "Include at least one 'skip' or 'overrated' call per video, and explain it fairly instead of mocking it.",
+          "Use real numbers: opening times, walking minutes, typical prices, ticket lead times. Say 'about' when estimating and flag anything that changes seasonally.",
+          "Be honest about uncertainty. If it depends on weather, mobility, kids or budget, say so and give the fork in the road.",
+          "Respect different travelers. No snobbery about tourist sights, no shaming of anyone's pace or budget.",
+          "Keep sentences short and concrete. Cut hype words and let specifics carry the enthusiasm.",
+          "Never pretend to have been somewhere you haven't. Separate firsthand experience from researched info."
+        ],
+        "content_pillars": [
+          "Constraint-first itineraries: 24-72 hour plans built around a pace, budget, weather or group type",
+          "What to skip (and what to do instead): honest calls on overhyped sights, traps and wasted hours",
+          "Rain, crowds and bad-day backups: plan Bs that are good enough to be plan A",
+          "Logistics that make or break a trip: airport transfers, passes, booking windows, neighborhoods to stay in",
+          "Slow and sane pacing: how many things actually fit in a day, and how to leave room for the unplanned",
+          "Trip-planning decisions: choosing between destinations, seasons, or hotel locations, with a clear framework"
+        ],
+        "series_formats": [
+          "Hours in Place, One Constraint: a fixed-length itinerary (e.g. '48 hours in Lisbon, slow pace') with a stop-by-stop schedule, walking times and a stated 'we deliberately left out' list.",
+          "Skip It / Swap It: three to five famous sights or habits in one city, each given a verdict (do, skip, or do differently) with the reasoning and a better alternative.",
+          "What Happens If: tests a common planning decision, such as 'What happens if you only book one thing in advance in Rome?' or 'What happens if you stay outside the center?', and walks through realistic outcomes in time, cost and stress."
+        ],
+        "cta_line": "Tell me your city and your constraint in the comments, and I'll build the plan in a future video.",
+        "never_say": [
+          "hidden gem",
+          "bucket list",
+          "you won't believe",
+          "must-see",
+          "paradise",
+          "life-changing",
+          "like a local",
+          "off the beaten path",
+          "ultimate guide",
+          "perfect itinerary",
+          "you HAVE to",
+          "trust me, it's worth it"
+        ]
+      },
+      "id": "n1",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "started": "2026-11-17T14:24:16.216188+00:00",
+      "upload_post_user": "niche1"
+    },
+    {
+      "name": "Career Skills & Workplace Communication",
+      "angle": "Practical scripts and frameworks for interviews, emails, meetings, negotiating workloads, remote-work habits and writing a strong resume. Each video gives specific wording and a clear opinion on common advice.",
+      "audience": "Early- and mid-career professionals aged 22-45 in the US, UK, CA and AU",
+      "monetization": [
+        "Course and tool affiliate links",
+        "Sell resume, email-script and interview-prep templates",
+        "Sponsors from learning platforms and career tools"
+      ],
+      "affiliate_programs": [
+        "Coursera affiliate program (Impact)",
+        "Skillshare affiliate program",
+        "Grammarly affiliate program",
+        "Teal affiliate program"
+      ],
+      "scores": {
+        "viewer_value": 5,
+        "monetization_paths": 5,
+        "ai_visual_fit": 4,
+        "evergreen_depth": 5,
+        "originality_room": 3
+      },
+      "queries": [
+        "how to answer tell me about yourself interview",
+        "how to write a professional email to your boss"
+      ],
+      "market": [
+        {
+          "query": "how to answer tell me about yourself interview",
+          "videos": 25,
+          "median_views": 23498,
+          "small_channel_hits": 0.04
+        },
+        {
+          "query": "how to write a professional email to your boss",
+          "videos": 25,
+          "median_views": 164,
+          "small_channel_hits": 0.04
+        }
+      ],
+      "total_score": 54.8,
+      "brand": {
+        "channel_name": "Say It Better at Work",
+        "handle_ideas": [
+          "@sayitbetterwork",
+          "@theworkscript",
+          "@wordsthatworkcareer"
+        ],
+        "bio": "Exact words for the moments that make or break your career: the interview answer, the pushback email, the workload conversation, the resume bullet. Every video gives you a script you can copy today and a straight opinion on the advice everyone repeats. For early- and mid-career professionals in the US, UK, Canada and Australia. New videos weekly.",
+        "voice_style": "A sharp, experienced colleague who has sat on both sides of the hiring table and wants you to win. Direct, warm and slightly dry. Opinionated but willing to show the reasoning, and quick to say when advice depends on context (industry, seniority, country, boss). Speaks in short sentences, puts the actual wording on screen, and says what to do before explaining why. Treats the viewer as capable and busy, not as someone who needs hype.",
+        "tone_rules": [
+          "Lead with the script or the verdict in the first 10 seconds, then explain.",
+          "Take a clear position on common advice (for example 'never say you're a perfectionist' or 'always negotiate') and give the reasoning, including when the advice does hold up.",
+          "Give exact wording: full sentences the viewer can copy, plus a weaker version for contrast when useful.",
+          "Flag where norms differ by country (US vs UK vs CA vs AU), such as salary talk, directness, CV vs resume and notice periods.",
+          "Be honest about risk: say when a script could backfire, with a toxic boss, in a layoff climate or at a junior level.",
+          "Keep language plain and conversational. No corporate jargon, no guru talk.",
+          "Be empathetic about power imbalances without being preachy. Acknowledge that the viewer has less leverage than the person across the table, then show what to do anyway.",
+          "Never promise outcomes. Use phrases like 'this tends to work' or 'here is what I'd try'.",
+          "Use light, dry humor aimed at workplace habits, never at people or at the viewer.",
+          "Keep every example realistic: ordinary jobs, ordinary managers, ordinary stakes."
+        ],
+        "content_pillars": [
+          "Interviews: answers, questions to ask, follow-ups and handling the awkward moments, with scripts for each",
+          "Resumes and applications: bullet rewriting, cover letters, LinkedIn, and what recruiters actually skim",
+          "Everyday workplace writing: emails, Slack messages, status updates and difficult replies that read clearly and confidently",
+          "Meetings and visibility: speaking up, running a meeting, disagreeing with a senior colleague, and getting credit for your work",
+          "Pay, workload and boundaries: negotiating salary, saying no, pushing back on scope and asking for a raise or promotion",
+          "Remote and hybrid habits: async communication, availability, staying visible and avoiding burnout without looking disengaged"
+        ],
+        "series_formats": [
+          "Bad Advice, Better Script: take one piece of popular career advice, give a verdict (keep, tweak or bin), and replace it with exact wording that works better",
+          "Rewrite It Live: a real-style email, resume bullet or interview answer is shown in its weak form, then rewritten line by line with the reasoning for each change",
+          "What Happens If You...: walk through the realistic outcomes of a bold move (counter the first offer, decline a meeting, ask for a four-day week), with a best case, worst case, most likely case and the script to use"
+        ],
+        "cta_line": "Save this script for the next time you need it, and tell me in the comments which piece of career advice I should test next.",
+        "never_say": [
+          "Hack your way to the top",
+          "Guaranteed to get you hired",
+          "Just be confident",
+          "Crush it",
+          "Alpha or sigma anything",
+          "Quit your job and escape the 9-to-5",
+          "This one trick recruiters don't want you to know",
+          "Always or never, without explaining when it doesn't apply",
+          "Hustle harder",
+          "Any rule presented as universal across every industry and country"
+        ]
+      },
+      "id": "n2",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "started": "2026-11-17T14:24:29.445870+00:00",
+      "upload_post_user": "niche2"
+    },
+    {
+      "name": "Home Wi-Fi, Smart Home & Privacy Setup",
+      "angle": "Plain-English explainers on making home tech work: fixing dead zones, mesh vs. router choices, smart home routines, and privacy settings. Each video takes a clear opinion, such as 'the 5 smart home gadgets that aren't worth it'.",
+      "audience": "Homeowners and renters aged 25-55 in the US, UK, CA and AU who are comfortable with tech but not experts",
+      "monetization": [
+        "Affiliate links for hardware and VPNs",
+        "Sponsors from smart home and security brands",
+        "Cheap digital product: home network setup checklist PDF or planning template"
+      ],
+      "affiliate_programs": [
+        "Amazon Associates",
+        "Best Buy Affiliate Program (Impact)",
+        "NordVPN affiliate program",
+        "Proton affiliate program"
+      ],
+      "scores": {
+        "viewer_value": 5,
+        "monetization_paths": 5,
+        "ai_visual_fit": 4,
+        "evergreen_depth": 4,
+        "originality_room": 3
+      },
+      "queries": [
+        "how to fix weak wifi in every room",
+        "smart home setup for beginners"
+      ],
+      "market": [
+        {
+          "query": "how to fix weak wifi in every room",
+          "videos": 5,
+          "median_views": 235,
+          "small_channel_hits": 0.0
+        },
+        {
+          "query": "smart home setup for beginners",
+          "videos": 25,
+          "median_views": 8604,
+          "small_channel_hits": 0.04
+        }
+      ],
+      "total_score": 52.7
+    },
+    {
+      "name": "Language Learning Methods & Study Systems",
+      "angle": "Method-first guides, not vocabulary lists: 'how to get past the intermediate plateau in Spanish', 'a 20-minute daily routine' and app vs. tutor comparisons. Footage of the places where each language is spoken adds variety.",
+      "audience": "Adult learners aged 20-50 in the US, UK, CA and AU, including travelers and heritage learners",
+      "monetization": [
+        "Language app and tutoring affiliate links",
+        "Sell study planners and flashcard decks",
+        "Language app sponsors"
+      ],
+      "affiliate_programs": [
+        "Babbel affiliate program",
+        "Preply affiliate program",
+        "italki affiliate program",
+        "Audible affiliate program (via Amazon)"
+      ],
+      "scores": {
+        "viewer_value": 4,
+        "monetization_paths": 5,
+        "ai_visual_fit": 4,
+        "evergreen_depth": 5,
+        "originality_room": 4
+      },
+      "queries": [
+        "how to learn spanish fast as an adult",
+        "best language learning apps compared"
+      ],
+      "market": [
+        {
+          "query": "how to learn spanish fast as an adult",
+          "videos": 8,
+          "median_views": 216,
+          "small_channel_hits": 0.0
+        },
+        {
+          "query": "best language learning apps compared",
+          "videos": 25,
+          "median_views": 2373,
+          "small_channel_hits": 0.0
+        }
+      ],
+      "total_score": 52.4
+    },
+    {
+      "name": "Home Coffee & Tea Craft",
+      "angle": "Brewing methods, gear comparisons, bean and origin explainers, and fixes for common mistakes such as 'why your espresso tastes sour'. The voice is a hobbyist with strong, defensible opinions.",
+      "audience": "Adults aged 22-50 who brew at home, in the US, UK, CA and AU",
+      "monetization": [
+        "Gear and subscription affiliate links",
+        "Sell a brew-guide or recipe card PDF",
+        "Roaster and equipment sponsors"
+      ],
+      "affiliate_programs": [
+        "Amazon Associates",
+        "Trade Coffee affiliate program",
+        "Atlas Coffee Club affiliate program",
+        "Teabox affiliate program"
+      ],
+      "scores": {
+        "viewer_value": 4,
+        "monetization_paths": 4,
+        "ai_visual_fit": 5,
+        "evergreen_depth": 4,
+        "originality_room": 3
+      },
+      "queries": [
+        "how to make better espresso at home",
+        "pour over vs french press which is better"
+      ],
+      "market": [
+        {
+          "query": "how to make better espresso at home",
+          "videos": 25,
+          "median_views": 18234,
+          "small_channel_hits": 0.12
+        },
+        {
+          "query": "pour over vs french press which is better",
+          "videos": 25,
+          "median_views": 125,
+          "small_channel_hits": 0.04
+        }
+      ],
+      "total_score": 50.7
+    },
+    {
+      "name": "Backyard Gardening & Houseplants",
+      "angle": "Seasonal, region-aware growing guides with a planning focus: 'what to plant in March in zone 7', 'why your monstera keeps dropping leaves' and small-space layouts. Videos follow a repeatable problem-and-fix structure.",
+      "audience": "Homeowners, renters and hobbyists aged 28-65 in the four target countries",
+      "monetization": [
+        "Seed, tool and plant affiliate links",
+        "Sell garden planners and planting calendars",
+        "Garden brand sponsors"
+      ],
+      "affiliate_programs": [
+        "Amazon Associates",
+        "Burpee affiliate program",
+        "Etsy affiliate program (Awin)",
+        "Thompson & Morgan affiliate program"
+      ],
+      "scores": {
+        "viewer_value": 4,
+        "monetization_paths": 4,
+        "ai_visual_fit": 5,
+        "evergreen_depth": 5,
+        "originality_room": 3
+      },
+      "queries": [
+        "what to plant in spring vegetable garden beginner",
+        "why is my houseplant dying leaves yellow"
+      ],
+      "market": [
+        {
+          "query": "what to plant in spring vegetable garden beginner",
+          "videos": 23,
+          "median_views": 714,
+          "small_channel_hits": 0.0
+        },
+        {
+          "query": "why is my houseplant dying leaves yellow",
+          "videos": 7,
+          "median_views": 104,
+          "small_channel_hits": 0.0
+        }
+      ],
+      "total_score": 48.9
+    },
+    {
+      "name": "Home Improvement & DIY Explainers",
+      "angle": "Decision-focused guides for jobs like painting, flooring, tool buying and small repairs. The point of view is 'what actually matters vs. what contractors upsell', with tool and material comparisons and step-by-step logic.",
+      "audience": "Homeowners and renters aged 28-60 in the US, UK, CA and AU",
+      "monetization": [
+        "Tool and material affiliate links",
+        "Sell project checklists and budget-free materials-list templates",
+        "Tool and home brand sponsors"
+      ],
+      "affiliate_programs": [
+        "Amazon Associates",
+        "Home Depot affiliate program (Impact)",
+        "Lowe's affiliate program",
+        "Wayfair affiliate program"
+      ],
+      "scores": {
+        "viewer_value": 4,
+        "monetization_paths": 4,
+        "ai_visual_fit": 4,
+        "evergreen_depth": 5,
+        "originality_room": 3
+      },
+      "queries": [
+        "how to paint a room like a pro",
+        "best beginner power tools to buy first"
+      ],
+      "market": [
+        {
+          "query": "how to paint a room like a pro",
+          "videos": 25,
+          "median_views": 1906,
+          "small_channel_hits": 0.04
+        },
+        {
+          "query": "best beginner power tools to buy first",
+          "videos": 3,
+          "median_views": 13131,
+          "small_channel_hits": 0.0
+        }
+      ],
+      "total_score": 48.5
+    },
+    {
+      "name": "Productivity Systems & Note-Taking Software",
+      "angle": "Tested-style frameworks and app workflows for planning, note-taking and focus, with an opinionated view on tool bloat. Examples: 'a calendar system that survives a chaotic week', 'Notion vs. Obsidian for real life'.",
+      "audience": "Students, knowledge workers and freelancers aged 20-45 in English-speaking markets",
+      "monetization": [
+        "Affiliate links for software",
+        "Sell Notion or spreadsheet templates on Gumroad or Etsy",
+        "Software sponsorships"
+      ],
+      "affiliate_programs": [
+        "Notion affiliate program",
+        "Todoist affiliate program",
+        "Skillshare affiliate program (Impact)",
+        "Grammarly affiliate program"
+      ],
+      "scores": {
+        "viewer_value": 4,
+        "monetization_paths": 5,
+        "ai_visual_fit": 3,
+        "evergreen_depth": 4,
+        "originality_room": 3
+      },
+      "queries": [
+        "best note taking system for work",
+        "how to plan your week productivity system"
+      ],
+      "market": [
+        {
+          "query": "best note taking system for work",
+          "videos": 3,
+          "median_views": 14081,
+          "small_channel_hits": 0.0
+        },
+        {
+          "query": "how to plan your week productivity system",
+          "videos": 25,
+          "median_views": 172,
+          "small_channel_hits": 0.0
+        }
+      ],
+      "total_score": 46.7
+    }
+  ],
+  "retired": []
+}
