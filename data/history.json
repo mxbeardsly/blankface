@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "id": "202611171427-n2-never-name-a-number-first-is-o",
+    "niche": "n2",
+    "kind": "short",
+    "topic": "'Never name a number first' is only half right: the salary-expectations script for the recruiter's first call",
+    "title": "\"Never Name a Number First\" Is Only Half Right",
+    "at": "2026-11-17T14:57:48.358382+00:00",
+    "status": "scheduled",
+    "scheduled_for": "2026-11-17T17:00:00+00:00",
+    "platforms": [
+      "youtube"
+    ],
+    "job_id": "1d71b9495ef147d58a9900987f843681"
+  },
+  {
+    "id": "202611171431-n1-edinburgh-in-48-hours-of-rain",
+    "niche": "n1",
+    "kind": "short",
+    "topic": "48 hours in Edinburgh when it rains the whole time: a stop-by-stop plan built around the free National Museum of Scotland, the Scottish National Gallery and pub lunches",
+    "title": "Edinburgh in 48 Hours of Rain: Two Free Museums and a Pub Lunch",
+    "at": "2026-11-17T14:58:01.962365+00:00",
+    "status": "scheduled",
+    "scheduled_for": "2026-11-17T17:00:00+00:00",
+    "platforms": [
+      "youtube"
+    ],
+    "job_id": "3bde3fae93504eafb5c6512ae5d6df99"
+  },
+  {
+    "id": "202611171434-n2-what-happens-if-you-counter-th",
+    "niche": "n2",
+    "kind": "short",
+    "topic": "What happens if you counter the first offer by asking for a bit more",
+    "title": "What Happens If You Counter the First Job Offer?",
+    "at": "2026-11-17T14:58:23.728124+00:00",
+    "status": "scheduled",
+    "scheduled_for": "2026-11-17T17:00:00+00:00",
+    "platforms": [
+      "youtube"
+    ],
+    "job_id": "257d226e07194544a22f3b00cefd8017"
+  }
+]
