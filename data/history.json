@@ -11,7 +11,8 @@
     "platforms": [
       "youtube"
     ],
-    "job_id": "1d71b9495ef147d58a9900987f843681"
+    "job_id": "1d71b9495ef147d58a9900987f843681",
+    "youtube_id": "3_lyT4fBuTQ"
   },
   {
     "id": "202611171431-n1-edinburgh-in-48-hours-of-rain",
@@ -25,7 +26,8 @@
     "platforms": [
       "youtube"
     ],
-    "job_id": "3bde3fae93504eafb5c6512ae5d6df99"
+    "job_id": "3bde3fae93504eafb5c6512ae5d6df99",
+    "youtube_id": "HsTd138bvK4"
   },
   {
     "id": "202611171434-n2-what-happens-if-you-counter-th",
@@ -39,6 +41,7 @@
     "platforms": [
       "youtube"
     ],
-    "job_id": "257d226e07194544a22f3b00cefd8017"
+    "job_id": "257d226e07194544a22f3b00cefd8017",
+    "youtube_id": "-9X4BpNeHpo"
   }
 ]
