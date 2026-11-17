@@ -1,1 +1,70 @@
-{}
+{
+  "202611171427-n2-never-name-a-number-first-is-o": {
+    "id": "202611171427-n2-never-name-a-number-first-is-o",
+    "niche": "n2",
+    "kind": "short",
+    "topic": "'Never name a number first' is only half right: the salary-expectations script for the recruiter's first call",
+    "script": {
+      "title": "\"Never Name a Number First\" Is Only Half Right",
+      "hook_text": "Never name a number first?",
+      "beats": [
+        {
+          "narration": "\"Never name a number first\" is only half right.",
+          "visual": "recruiter phone call"
+        },
+        {
+          "narration": "\"I'm flexible\" sounds unprepared, and the recruiter still has a number in mind. It's theirs.",
+          "visual": "woman on phone laptop"
+        },
+        {
+          "narration": "Try: \"Based on what I'm seeing for this role, I'm targeting eighty to ninety thousand. How does that fit your range?\"",
+          "visual": "typing job application"
+        },
+        {
+          "narration": "Make the bottom of that range a number you'd genuinely accept. That's the one they'll hear.",
+          "visual": "calculator notebook desk"
+        },
+        {
+          "narration": "If the role is vague, the old rule holds. Ask: \"What's the budgeted range?\" Some US states require posted ranges, so check the listing first.",
+          "visual": "scrolling job listings"
+        },
+        {
+          "narration": "You have less leverage here. A researched range still beats a shrug.",
+          "visual": "job candidate waiting office"
+        },
+        {
+          "narration": "Save this script for the next time you need it, and tell me in the comments which piece of career advice I should test next.",
+          "visual": "person writing notes"
+        }
+      ],
+      "description": "The old rule says never name a number first, but dodging the salary question on a recruiter's first call can backfire. Here is the exact wording I'd try, plus when staying quiet still makes sense. Norms vary by country and industry, so check your local context.",
+      "hashtags": [
+        "#salarynegotiation",
+        "#jobinterview",
+        "#careeradvice",
+        "#recruiter",
+        "#sayitbetteratwork"
+      ],
+      "pinned_comment": "Which salary question has thrown you on a recruiter call? Drop it below and I'll write a script for it. Tell me your country too, because the norms differ.",
+      "claims": [
+        "Some US states and cities (for example Colorado, California, Washington and New York City) require employers to include pay ranges in job postings.",
+        "Pay transparency rules and salary-discussion norms differ by country and by industry."
+      ]
+    },
+    "check_notes": [],
+    "credits": [
+      "atiqurrahman0047 on Pixabay",
+      "Kanenori on Pixabay",
+      "Darioguzben on Pixabay",
+      "Darioguzben on Pixabay",
+      "DistillVideos on Pixabay",
+      "Activedia on Pixabay",
+      "Coverr-Free-Footage on Pixabay"
+    ],
+    "duration": 44.1,
+    "created": "2026-11-17T14:28:27.617211+00:00",
+    "asset_id": 759373461,
+    "asset_url": "https://github.com/mxbeardsly/blankface/releases/download/review-videos/202611171427-n2-never-name-a-number-first-is-o.mp4",
+    "issue": 2
+  }
+}
