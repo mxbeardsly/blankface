@@ -95,7 +95,7 @@ def next_idea(niche: dict, history: list[dict], stats: dict) -> dict:
         fresh = ask(IDEAS.format(
             channel=b["channel_name"], angle=niche["angle"], audience=niche["audience"],
             pillars=", ".join(b["content_pillars"]), formats=", ".join(b["series_formats"]),
-            n=20,
+            n=12,
             winners="\n".join(f"{v} views: {t}" for v, t in scored[:8]) or "none yet",
             losers="\n".join(
                 [f"{v} views: {t}" for v, t in (scored[-5:] if len(scored) > 10 else [])]

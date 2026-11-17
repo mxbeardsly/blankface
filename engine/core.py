@@ -92,7 +92,7 @@ def over_budget() -> str | None:
 
 
 def ask(prompt: str, *, model_role: str = "writer", system: str = "",
-        max_tokens: int = 4000, want_json: bool = True, offline_stub=None):
+        max_tokens: int = 8000, want_json: bool = True, offline_stub=None):
     """One shot Claude call. Returns parsed JSON when want_json."""
     if OFFLINE:
         if offline_stub is None:
@@ -124,7 +124,15 @@ def ask(prompt: str, *, model_role: str = "writer", system: str = "",
     text = "".join(b.text for b in msg.content if b.type == "text").strip()
     if not want_json:
         return text
-    return parse_json(text)
+    try:
+        return parse_json(text)
+    except ValueError:
+        if "(retry)" in prompt:
+            raise
+        print(f"JSON parse failed (stop_reason={j.get('stop_reason')}), retrying once")
+        retry = prompt + "\n\n(retry) Your last reply was not valid JSON. Keep every string short."
+        return parse_json(ask(retry, model_role=model_role, system=system,
+                              max_tokens=max_tokens, want_json=False))
 
 
 def parse_json(text: str):
@@ -137,3 +145,4 @@ def parse_json(text: str):
         if not m:
             raise
         return json.loads(m.group(1))
+
