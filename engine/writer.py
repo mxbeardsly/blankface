@@ -43,6 +43,7 @@ JSON: {{"title": str (under 70 chars, curiosity, no clickbait lies),
   "description": str (2 to 3 sentences),
   "hashtags": [str],
   "pinned_comment": str,
+  "resources": [str],
   "claims": [str]}}"""
 
 CHECK = """You are a strict fact checker and YouTube policy reviewer.
@@ -116,8 +117,15 @@ def write(niche: dict, idea: dict, kind: str, target_seconds: int) -> tuple[dict
     b = niche["brand"]
     words = int(target_seconds * 2.5)  # about 150 spoken words per minute
     links = load("affiliates.json", {}).get(niche["id"], [])
-    affiliate = ("- If it fits naturally, the description may mention: "
-                 + "; ".join(f"{l['name']} ({l['url']})" for l in links)) if links else ""
+    affiliate = ""
+    if links:
+        menu = "; ".join(f"{l['name']} ({l.get('what', '')})" for l in links)
+        affiliate = (
+            "- Recommended resources the channel can link: " + menu + ". If one genuinely "
+            "helps with THIS topic, list its exact name in \"resources\" (max 2) and, only for "
+            "the long video, mention it once in passing near the end (\"I've linked it below\"). "
+            "For a Short, say links are in the channel bio instead. Never force a pitch; "
+            "an empty list is fine.")
     script = ask(SCRIPT.format(
         kind="vertical Short" if kind == "short" else "6 minute horizontal YouTube",
         channel=b["channel_name"], voice=b["voice_style"], tone="; ".join(b["tone_rules"]),
