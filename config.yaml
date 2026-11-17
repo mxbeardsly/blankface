@@ -14,7 +14,7 @@ cadence:
 # Where approved videos go. Start with youtube + tiktok; add instagram once
 # the Instagram account is a Business/Creator account linked in Upload-Post.
 platforms:
-  shorts: [youtube, tiktok]
+  shorts: [youtube]              # add tiktok once accounts exist (needs unique emails)
   longform: [youtube]
 
 review:
