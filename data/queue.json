@@ -1,1 +1,161 @@
-{}
+{
+  "202611171914-n1-skip-the-harbour-cruise-swap-i": {
+    "id": "202611171914-n1-skip-the-harbour-cruise-swap-i",
+    "niche": "n1",
+    "kind": "short",
+    "topic": "Skip It / Swap It: New York City. Times Square at night, the Empire State Building, a paid harbour cruise, Top of the Rock, and the Staten Island Ferry",
+    "script": {
+      "title": "Skip the Harbour Cruise: Swap It for This in NYC",
+      "hook_text": "Skip the paid harbour cruise",
+      "beats": [
+        {
+          "narration": "Your paid harbour cruise might be the weakest ticket in New York.",
+          "visual": "New York harbour tour boat"
+        },
+        {
+          "narration": "First-timers, one evening, normal budget. Skip the cruise. Swap in the Staten Island Ferry.",
+          "visual": "Staten Island Ferry orange boat"
+        },
+        {
+          "narration": "It's free, runs around the clock, about twenty-five minutes each way. Skyline, plus a distant Statue of Liberty. Cost: no commentary, and wind.",
+          "visual": "Statue of Liberty from ferry"
+        },
+        {
+          "narration": "Skip the Empire State Building if you're doing Top of the Rock. That view includes it. Prices vary by date and slot, so check the official Top of the Rock site before booking sunset.",
+          "visual": "Manhattan skyline Empire State sunset"
+        },
+        {
+          "narration": "Times Square at night: keep it, ten minutes. Free. Cost: crowds.",
+          "visual": "Times Square crowds night"
+        },
+        {
+          "narration": "Tell me your city and your constraint in the comments, and I'll build a plan in a future video. Links are in the description. They're affiliate links, so I may earn a commission at no extra cost to you.",
+          "visual": "traveler holding city map, on-screen text: 'Affiliate links: I may earn a commission at no extra cost to you'"
+        }
+      ],
+      "description": "A quick Skip It / Swap It for first-time New York visitors with one evening and a normal budget. The paid harbour cruise loses to a free ferry, and Top of the Rock beats the Empire State Building if you only pick one. Times Square gets a time limit, not a ban.\n\nDisclosure: This video contains affiliate links (including GetYourGuide). I may earn a commission at no extra cost to you. Top of the Rock prices change by date and time slot, so check the official Top of the Rock site for current adult prices before booking.",
+      "hashtags": [
+        "#NewYorkCity",
+        "#NYCTravel",
+        "#TravelTips",
+        "#StatenIslandFerry",
+        "#FewerBetterDays"
+      ],
+      "pinned_comment": "Which one are you skipping? Tell me your city and your constraint, and I'll build the plan in a future video. (Affiliate disclosure: links in the description may earn me a commission at no extra cost to you.)",
+      "resources": [
+        "GetYourGuide"
+      ],
+      "destination": "New York City",
+      "claims": [
+        "The Staten Island Ferry is free to ride.",
+        "The Staten Island Ferry runs 24 hours a day.",
+        "The Staten Island Ferry trip takes about 25 minutes each way.",
+        "The Staten Island Ferry passes the Statue of Liberty at a distance and does not stop at Liberty Island.",
+        "Top of the Rock has a view that includes the Empire State Building.",
+        "Top of the Rock ticket prices vary by date, time slot, and ticket type, so viewers should check the official site for current prices.",
+        "Times Square is free to visit."
+      ]
+    },
+    "check_notes": [],
+    "credits": [
+      "Activedia on Pixabay",
+      "Matthias_Groeneveld on Pixabay",
+      "Obsidian_Ardor on Pixabay",
+      "Edwars08 on Pixabay",
+      "JoshuaWoroniecki on Pixabay",
+      "Coverr-Free-Footage on Pixabay"
+    ],
+    "duration": 48.3,
+    "created": "2026-11-17T19:16:14.063591+00:00",
+    "asset_id": 760305936,
+    "asset_url": "https://github.com/mxbeardsly/blankface/releases/download/review-videos/202611171914-n1-skip-the-harbour-cruise-swap-i.mp4",
+    "issue": 7
+  },
+  "202611171916-n2-stop-writing-just-circling-bac": {
+    "id": "202611171916-n2-stop-writing-just-circling-bac",
+    "niche": "n2",
+    "kind": "short",
+    "topic": "Rewrite It Live: the 'just circling back' follow-up that gets ignored",
+    "script": {
+      "title": "Stop Writing 'Just Circling Back' (Rewrite This Instead)",
+      "hook_text": "Why nobody answers 'circling back'",
+      "beats": [
+        {
+          "narration": "\"Just circling back\" often gets no reply.",
+          "visual": "empty email inbox"
+        },
+        {
+          "narration": "The weak version: \"Just circling back on my last email.\" It asks for nothing, so it usually gets nothing.",
+          "visual": "person typing laptop"
+        },
+        {
+          "narration": "Try this: \"Hi Sam, I need a yes or no on the vendor quote by Thursday. If I don't hear back, I'll go with the cheaper option.\"",
+          "visual": "office worker writing email"
+        },
+        {
+          "narration": "One question, one date, one default. That makes it quick to answer.",
+          "visual": "calendar desk close up"
+        },
+        {
+          "narration": "Writing to someone senior? Soften it: \"Would Thursday work for a decision?\" Directness varies by country and boss.",
+          "visual": "manager office meeting"
+        },
+        {
+          "narration": "Save this script for the next time you need it, and tell me in the comments which piece of career advice I should test next.",
+          "visual": "person smiling phone"
+        }
+      ],
+      "description": "A live rewrite of the vague 'just circling back' follow-up into a message that is easy to answer: one clear question, a date, and a default. Includes a softer version for senior people.",
+      "hashtags": [
+        "#careeradvice",
+        "#workplacecommunication",
+        "#emailtips",
+        "#followup",
+        "#sayitbetteratwork"
+      ],
+      "pinned_comment": "Which follow-up email do you keep rewriting and never sending? Paste the weak version below and I'll rewrite it.",
+      "resources": [
+        "Your last unanswered email thread, to rewrite using the script above"
+      ],
+      "destination": "",
+      "claims": [
+        "Norms around directness in workplace communication vary by country and workplace."
+      ]
+    },
+    "check_notes": [
+      {
+        "text": "Why nobody answers 'circling back'",
+        "issue": "The hook overstates the claim with 'nobody', which is an absolute the script cannot support and makes the title-to-content relationship less accurate.",
+        "fix": "Change to 'Why 'circling back' emails often go unanswered' or 'Why 'circling back' emails get ignored'."
+      },
+      {
+        "text": "\"Just circling back\" often gets no reply.",
+        "issue": "Presented as an empirical fact without any source or data. It is plausible but unverified, and the script offers no evidence.",
+        "fix": "Frame it as the creator's experience or opinion (e.g., 'In my experience, vague follow-ups get ignored'), or add a source if one exists."
+      },
+      {
+        "text": "The weak version: \"Just circling back on my last email.\" It asks for nothing, so it usually gets nothing.",
+        "issue": "'Usually gets nothing' is a generalized outcome claim stated as fact, with no support.",
+        "fix": "Soften to 'It doesn't ask for anything specific, so it's easy to ignore.'"
+      },
+      {
+        "text": "The description calls this a \"live rewrite\".",
+        "issue": "The video is a scripted, pre-produced faceless video, not a live session. 'Live' misrepresents the content format.",
+        "fix": "Replace 'A live rewrite' with 'A rewrite walkthrough' or 'A step-by-step rewrite'."
+      }
+    ],
+    "credits": [
+      "Matthias_Groeneveld on Pixabay",
+      "JonathanSlatterMusic on Pixabay",
+      "Coverr-Free-Footage on Pixabay",
+      "StefWithAnF on Pixabay",
+      "geralt on Pixabay",
+      "GIUSEPPE-DE-BERGOLIS on Pixabay"
+    ],
+    "duration": 36.8,
+    "created": "2026-11-17T19:18:00.675443+00:00",
+    "asset_id": 760311037,
+    "asset_url": "https://github.com/mxbeardsly/blankface/releases/download/review-videos/202611171916-n2-stop-writing-just-circling-bac.mp4",
+    "issue": 8
+  }
+}
