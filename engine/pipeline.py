@@ -10,7 +10,7 @@ import traceback
 from . import github as gh
 from . import niche_scout, publisher, render, visuals, voice, writer
 from .core import OUT, add_spend, config, load, month_key, now, over_budget, save, slug
-from .youtube_data import video_id_from_url, video_stats
+from .youtube_data import channel_uploads, video_id_from_url, video_stats
 
 APPROVE = re.compile(r"^\s*(yes|y|approve|approved|ok|okay|ship it|post|👍|✅)\b", re.I)
 REJECT = re.compile(r"^\s*(no|n|reject|nope|skip|👎|❌)\b", re.I)
@@ -203,10 +203,24 @@ def publish() -> None:
 # ------------------------------------------------------------- report
 
 
+def _norm(t: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", t.lower())
+
+
 def _link_youtube_ids(history: list[dict]) -> None:
     missing = {h["id"] for h in history if h.get("status") == "scheduled" and not h.get("youtube_id")}
     if not missing:
         return
+    # 1) match by title against each channel's uploads (reliable, read only API)
+    for n in load("niches.json", {}).get("active", []):
+        uploads = {_norm(u["title"]): u["id"] for u in channel_uploads(n.get("youtube_channel_id"))}
+        for h in history:
+            if h["id"] in missing and h["niche"] == n["id"] and _norm(h["title"]) in uploads:
+                h["youtube_id"] = uploads[_norm(h["title"])]
+                missing.discard(h["id"])
+    if not missing:
+        return
+    # 2) fall back to Upload-Post history
     try:
         rows = publisher.history_urls()
     except Exception as e:

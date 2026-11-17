@@ -68,3 +68,24 @@ def video_stats(ids: list[str]) -> dict[str, dict]:
             st = x["statistics"]
             out[x["id"]] = {k: int(st.get(k, 0)) for k in ("viewCount", "likeCount", "commentCount")}
     return out
+
+
+def channel_uploads(channel_id: str, limit: int = 50) -> list[dict]:
+    """Recent uploads for a channel: [{"id", "title"}]. Uploads playlist is UU + id[2:]."""
+    if OFFLINE or not channel_id:
+        return []
+    out, token = [], None
+    while len(out) < limit:
+        params = {"part": "snippet", "playlistId": "UU" + channel_id[2:], "maxResults": 50}
+        if token:
+            params["pageToken"] = token
+        try:
+            j = _get("playlistItems", **params)
+        except requests.HTTPError:
+            break  # playlist does not exist until the first upload
+        out += [{"id": i["snippet"]["resourceId"]["videoId"], "title": i["snippet"]["title"]}
+                for i in j.get("items", [])]
+        token = j.get("nextPageToken")
+        if not token:
+            break
+    return out[:limit]
