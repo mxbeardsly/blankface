@@ -1,11 +1,6 @@
 {
   "n2": [
     {
-      "topic": "What happens if you counter the first offer by asking for a bit more",
-      "format": "What Happens If You...",
-      "why_it_hooks": "Fear of the offer being pulled is the main reason people don't negotiate. The video walks through the best case, the worst case (rare, and what it signals about the employer), and the most likely case (a small move or a non-salary perk), with a polite 4-sentence counter script."
-    },
-    {
       "topic": "Rewrite It Live: the 'just circling back' follow-up that gets ignored",
       "format": "Rewrite It Live",
       "why_it_hooks": "Viewers will recognise their own follow-up emails in the weak version. Each line is rewritten to make the reply easy: a specific ask, a deadline, and a one-word answer option."
@@ -94,6 +89,63 @@
       "topic": "What happens if you turn off work notifications after hours without telling anyone",
       "format": "What Happens If You...",
       "why_it_hooks": "It speaks to burnout and the fear of looking disengaged. It looks at the realistic outcomes, then gives a script for setting expectations on response times and for handling a real emergency, so you protect your evenings without looking absent."
+    }
+  ],
+  "n1": [
+    {
+      "topic": "Skip It / Swap It: New York City. Times Square at night, the Empire State Building, a paid harbour cruise, Top of the Rock, and the Staten Island Ferry",
+      "format": "Skip It / Swap It",
+      "why_it_hooks": "The Staten Island Ferry is free and passes the Statue of Liberty, which many visitors don't know. Each verdict gives a reason in dollars and minutes, such as when to do an observation deck at sunset and why the view from the Empire State Building doesn't include the Empire State Building."
+    },
+    {
+      "topic": "What happens if you only book one thing in advance in Rome: Colosseum, Vatican Museums or a restaurant",
+      "format": "What Happens If",
+      "why_it_hooks": "It tests the choice by walking through the realistic outcomes of each option. For each one you see the queue time, the cost of a last-minute skip-the-line tour reseller, and what breaks the rest of your day. It ends with a clear recommendation."
+    },
+    {
+      "topic": "What happens if you stay in Zone 3 instead of Zone 1 in London: the nightly saving versus the daily commute, with contactless fare capping",
+      "format": "What Happens If",
+      "why_it_hooks": "People assume cheaper hotels farther out automatically win. The video adds up the hotel saving against daily Tube time, fares and late-night journeys, and shows which type of traveller comes out ahead and which loses."
+    },
+    {
+      "topic": "Heathrow to central London: Elizabeth line vs Heathrow Express vs Piccadilly line, compared on time, price, luggage and your actual destination",
+      "format": "What Happens If",
+      "why_it_hooks": "The Heathrow Express looks like the obvious fast option, but door-to-door time depends on where you're staying. The video shows when the extra fare buys you nothing, and when it does."
+    },
+    {
+      "topic": "A rainy day in Vancouver that's good enough to be Plan A: the Museum of Anthropology, Granville Island Public Market, a ferry hop and a long café stop",
+      "format": "Hours in Place, One Constraint",
+      "why_it_hooks": "Vancouver rain is the trip-killer most visitors fear, especially in winter. This gives a dry-day sequence with transit links and timing, so the weather becomes a reason the plan works rather than a reason it fails."
+    },
+    {
+      "topic": "Where to stay in Melbourne: CBD, Fitzroy or St Kilda, and what the Free Tram Zone does to your days",
+      "format": "What Happens If",
+      "why_it_hooks": "It's a decision framework with three realistic stays. It walks through commute time, evening options, noise and the cost of getting back late for each, so the viewer can pick by travel style rather than by star rating."
+    },
+    {
+      "topic": "What happens if you plan six stops a day in Paris: a walk-through with real walking times, queues and a lunch that never happens",
+      "format": "What Happens If",
+      "why_it_hooks": "It's a realistic simulation of an over-packed day, hour by hour, showing where time goes. It ends with a 'three anchors, two optional' rule that viewers can copy for any city."
+    },
+    {
+      "topic": "24 hours in Chicago on a tight budget: Millennium Park, the Chicago Cultural Center, the Lakefront Trail and an architecture view from the river without paying for a cruise",
+      "format": "Hours in Place, One Constraint",
+      "why_it_hooks": "A budget cap makes the plan specific, and Chicago is unusually good at free and low-cost highlights. Each stop has a price and walking time, and the video states what it left out and why (the pricey observation deck, a full architecture cruise)."
+    },
+    {
+      "topic": "Skip It / Swap It: Sydney. The Harbour Bridge climb, Circular Quay crowds, Bondi on a summer weekend, and a Manly ferry ride on Opal as a cheap harbour cruise",
+      "format": "Skip It / Swap It",
+      "why_it_hooks": "A public ferry gives you the Opera House and Harbour Bridge views for a regular transit fare. It's a clear call on where the money goes, with a better alternative for each verdict, such as the Bondi to Coogee coastal walk at a quieter hour."
+    },
+    {
+      "topic": "Washington DC's free museums aren't all walk-in: which ones need timed passes, when to get them and how to build a day around the ones that don't",
+      "format": "What Happens If",
+      "why_it_hooks": "'Everything is free' is only half true, and finding out at the door wastes half a day. The video walks through the outcomes of booking early, booking late and turning up, then offers a flexible day plan."
+    },
+    {
+      "topic": "Edinburgh or Glasgow for a three-day city break? A decision framework by season, budget, weather, and what you actually want to do",
+      "format": "What Happens If",
+      "why_it_hooks": "It's a choice many UK, US, CA and AU travellers actually face, and it gets a verdict instead of 'both are great'. The framework covers sightseeing density, walkability, music and food, and rail times, so it applies to other either/or city choices too."
     }
   ]
 }

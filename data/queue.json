@@ -66,5 +66,172 @@
     "asset_id": 759373461,
     "asset_url": "https://github.com/mxbeardsly/blankface/releases/download/review-videos/202611171427-n2-never-name-a-number-first-is-o.mp4",
     "issue": 2
+  },
+  "202611171431-n1-edinburgh-in-48-hours-of-rain": {
+    "id": "202611171431-n1-edinburgh-in-48-hours-of-rain",
+    "niche": "n1",
+    "kind": "short",
+    "topic": "48 hours in Edinburgh when it rains the whole time: a stop-by-stop plan built around the free National Museum of Scotland, the Scottish National Gallery and pub lunches",
+    "script": {
+      "title": "Edinburgh in 48 Hours of Rain: Two Free Museums and a Pub Lunch",
+      "hook_text": "Two days. Constant rain. Edinburgh.",
+      "beats": [
+        {
+          "narration": "Two days of Edinburgh rain? Plan around two free buildings.",
+          "visual": "rainy Edinburgh street umbrellas"
+        },
+        {
+          "narration": "Constraint: constant rain, modest budget. Day one is the National Museum of Scotland. Free entry to the permanent galleries, opens about ten. Check for any charged special exhibitions. The cost: wet-morning crowds, so arrive early.",
+          "visual": "museum grand hall visitors"
+        },
+        {
+          "narration": "Lunch is a pub nearby. Mains often run around fifteen pounds or more, so check menus, and accept steamed-up windows.",
+          "visual": "pub lunch table rain window"
+        },
+        {
+          "narration": "Day two: the Scottish National Gallery on the Mound. Free permanent collection, a short walk away. Restless kids? Repeat the museum instead.",
+          "visual": "art gallery paintings visitors"
+        },
+        {
+          "narration": "Skip the Castle in heavy rain. It has lots of outdoor walkways, and cloud eats the views you're paying for. Some indoor areas stay open.",
+          "visual": "Edinburgh castle fog"
+        },
+        {
+          "narration": "Tell me your city and your constraint in the comments, and I'll build the plan in a future video.",
+          "visual": "person typing comment phone"
+        }
+      ],
+      "description": "A two-day wet-weather plan for Edinburgh built around two free museums and a pub lunch, with the costs and trade-offs named. Opening hours and prices change, so check before you go.",
+      "hashtags": [
+        "#Edinburgh",
+        "#ScotlandTravel",
+        "#RainyDayTravel",
+        "#TravelTips",
+        "#BudgetTravel"
+      ],
+      "pinned_comment": "Tell me your city and your constraint (rain, kids, budget, mobility) and I'll build the plan in a future video.",
+      "claims": [
+        "The National Museum of Scotland has free entry to its permanent galleries; special exhibitions may be charged.",
+        "The National Museum of Scotland opens at about 10am (hours can vary, check before visiting).",
+        "The Scottish National Gallery is on The Mound in Edinburgh.",
+        "The Scottish National Gallery's permanent collection is free to enter.",
+        "Edinburgh Castle requires a paid ticket, has many outdoor walkways and viewpoints, and also has indoor areas that stay open in wet weather.",
+        "A pub main course in Edinburgh often costs about £15 or more (estimate, varies by pub)."
+      ]
+    },
+    "check_notes": [
+      {
+        "text": "A pub main course in Edinburgh often costs about £15 or more (estimate, varies by pub).",
+        "issue": "Unsourced price estimate presented as a factual claim. Prices change, and the script gives no basis for the figure.",
+        "fix": "Remove the specific figure or say 'mains in Edinburgh pubs vary widely in price; check the menu online before you go.'"
+      },
+      {
+        "text": "Edinburgh Castle ... also has indoor areas that stay open in wet weather.",
+        "issue": "Vague and unverified claim about which areas stay open during rain. Indoor availability depends on the day and on the attraction's current operations.",
+        "fix": "Say 'the Castle has some indoor areas, but check its website for what is open that day.'"
+      },
+      {
+        "text": "Title: 'Edinburgh in 48 Hours of Rain: Two Free Museums and a Pub Lunch'",
+        "issue": "Slightly misleading. The script mentions only one pub lunch, on day one, and day two has no lunch plan. The title also promises a full 48-hour plan, but the video is a brief outline that defers the full plan to a future video.",
+        "fix": "Retitle to match the content, e.g. 'Edinburgh on a Rainy Day: Two Free Museums and a Pub Lunch' or 'Edinburgh Rainy Weekend: Two Free Museums to Start.'"
+      }
+    ],
+    "credits": [
+      "Iconikmg on Pixabay",
+      "masterbert0427 on Pixabay",
+      "NickyPe on Pixabay",
+      "Engin_Akyurt on Pixabay",
+      "NickyPe on Pixabay",
+      "Coverr-Free-Footage on Pixabay"
+    ],
+    "duration": 52.8,
+    "created": "2026-11-17T14:33:19.235018+00:00",
+    "asset_id": 759389883,
+    "asset_url": "https://github.com/mxbeardsly/blankface/releases/download/review-videos/202611171431-n1-edinburgh-in-48-hours-of-rain.mp4",
+    "issue": 4
+  },
+  "202611171434-n2-what-happens-if-you-counter-th": {
+    "id": "202611171434-n2-what-happens-if-you-counter-th",
+    "niche": "n2",
+    "kind": "short",
+    "topic": "What happens if you counter the first offer by asking for a bit more",
+    "script": {
+      "title": "What Happens If You Counter the First Job Offer?",
+      "hook_text": "Counter the offer. Then what?",
+      "beats": [
+        {
+          "narration": "What actually happens when you counter the first offer? A polite ask is meant to start a conversation, not end one.",
+          "visual": "person reading job offer"
+        },
+        {
+          "narration": "Say this: \"I'm excited about the role. Based on the scope, I was hoping for closer to seventy-two thousand. Is there any flexibility?\"",
+          "visual": "phone call at desk"
+        },
+        {
+          "narration": "Weaker version: \"Is that the best you can do?\" That's haggling.",
+          "visual": "market stall haggling"
+        },
+        {
+          "narration": "If pay bands are fixed or there's a hiring freeze, ask about a signing bonus, extra leave, or an earlier review. Offers can sometimes be withdrawn before you accept, depending on local law. This isn't legal advice.",
+          "visual": "office hiring meeting"
+        },
+        {
+          "narration": "Save this script for the next time you need it, and tell me in the comments which piece of career advice I should test next.",
+          "visual": "person typing comment laptop"
+        }
+      ],
+      "description": "A polite counter to a first job offer is meant to open a conversation rather than end it. Here is the exact wording to use, a weaker version to avoid, and what to ask for when pay bands are fixed or there is a hiring freeze. Employment law varies by country and state, and this is general information, not legal advice. Nothing here is guaranteed, so use your judgment about your own situation.",
+      "hashtags": [
+        "#salarynegotiation",
+        "#joboffer",
+        "#careeradvice",
+        "#negotiation",
+        "#sayitbetteratwork"
+      ],
+      "pinned_comment": "Have you ever countered a first offer? What did you say, and what happened? Tell me how it goes down where you are.",
+      "claims": [
+        "Pay bands are common in parts of the public sector and at many large employers, which can limit base salary flexibility.",
+        "Employers can often withdraw a job offer before it is formally accepted, depending on local law."
+      ]
+    },
+    "check_notes": [
+      {
+        "text": "What Happens If You Counter the First Job Offer?",
+        "issue": "The title promises an account of outcomes, but the script mostly gives wording and tactics. It never describes what typically follows a counter, such as the employer's likely responses or the risk that the offer is reduced or withdrawn.",
+        "fix": "Retitle to match the content, e.g., 'How to Counter a First Job Offer (Exact Wording)', or add a segment on realistic outcomes."
+      },
+      {
+        "text": "Offers can sometimes be withdrawn before you accept, depending on local law.",
+        "issue": "This is a legally sensitive claim presented without the key implication. It suggests countering carries little risk, but it can prompt an employer to rescind or reconsider. The line is also vague about jurisdiction and timing (for example, whether a conditional or verbal offer is already binding in some places).",
+        "fix": "State the risk explicitly: 'Countering can sometimes lead an employer to withdraw or lower an offer, and rules differ by country and state.' Keep the non-legal-advice disclaimer adjacent to it."
+      },
+      {
+        "text": "Pay bands are common in parts of the public sector and at many large employers, which can limit base salary flexibility.",
+        "issue": "This is a general claim with no source. It is broadly plausible, but 'common' and 'many' are unquantified and could be disputed.",
+        "fix": "Soften to 'Some public-sector and large employers use fixed pay bands, which can limit base-salary flexibility,' or cite a source in the description."
+      },
+      {
+        "text": "\"I was hoping for closer to seventy-two thousand.\"",
+        "issue": "The figure has no currency or market context, so viewers may read it as a benchmark. It is an example, not data.",
+        "fix": "Use a placeholder such as '[your target figure]' or label it clearly as an illustrative example with a currency."
+      },
+      {
+        "text": "Save this script for the next time you need it",
+        "issue": "Minor clarity problem: the audience is not given a script file, so the call to action is confusing.",
+        "fix": "Change to 'Save this wording for your next offer' or similar."
+      }
+    ],
+    "credits": [
+      "klimkin on Pixabay",
+      "DespiertaYa on Pixabay",
+      "Coverr-Free-Footage on Pixabay",
+      "Life-Of-Vids on Pixabay",
+      "Natures_Embrace on Pixabay"
+    ],
+    "duration": 41.0,
+    "created": "2026-11-17T14:35:05.490184+00:00",
+    "asset_id": 759396015,
+    "asset_url": "https://github.com/mxbeardsly/blankface/releases/download/review-videos/202611171434-n2-what-happens-if-you-counter-th.mp4",
+    "issue": 5
   }
 }
