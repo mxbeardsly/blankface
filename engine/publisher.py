@@ -17,8 +17,9 @@ SHORT_SLOTS = [17, 1]
 LONG_SLOT = 16
 
 
-def next_slot(niche_id: str, kind: str) -> dt.datetime:
-    taken = {h["scheduled_for"] for h in load("history.json", [])
+def next_slot(niche_id: str, kind: str, extra: list[dict] | None = None) -> dt.datetime:
+    rows = load("history.json", []) + (extra or [])
+    taken = {h["scheduled_for"] for h in rows
              if h.get("niche") == niche_id and h.get("scheduled_for")}
     t = now() + dt.timedelta(minutes=20)
     hours = SHORT_SLOTS if kind == "short" else [LONG_SLOT]

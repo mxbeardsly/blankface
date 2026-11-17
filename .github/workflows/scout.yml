@@ -25,6 +25,7 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - run: git pull --ff-only origin main
       - run: python run.py scout
       - name: Save bot state
         if: always()

@@ -127,6 +127,8 @@ def produce(kind: str = "short") -> list[dict]:
 def _decision(meta: dict) -> tuple[str | None, str]:
     iss = gh.issue(meta["issue"])
     labels = {l["name"] for l in iss.get("labels", [])}
+    if labels & {"posted", "expired"}:
+        return "done", ""  # another run already handled it
     if "approved" in labels:
         return "approve", ""
     if "rejected" in labels:
@@ -159,6 +161,9 @@ def publish() -> None:
             continue
         rec = {"id": vid_id, "niche": meta["niche"], "kind": meta["kind"], "topic": meta["topic"],
                "title": meta["script"]["title"], "at": now().isoformat()}
+        if decision == "done":
+            queue.pop(vid_id)
+            continue
         if decision == "approve":
             n = niches.get(meta["niche"])
             if not n:
@@ -167,7 +172,7 @@ def publish() -> None:
             video = gh.download_asset(meta["asset_id"], OUT / f"{vid_id}.mp4")
             thumb = (gh.download_asset(meta["thumb_asset_id"], OUT / f"{vid_id}.jpg")
                      if meta.get("thumb_asset_id") else None)
-            when = publisher.next_slot(meta["niche"], meta["kind"])
+            when = publisher.next_slot(meta["niche"], meta["kind"], history)
             plats = cfg["platforms"]["shorts" if meta["kind"] == "short" else "longform"]
             try:
                 res = publisher.post(video, meta, plats, n["upload_post_user"], when, thumb)
