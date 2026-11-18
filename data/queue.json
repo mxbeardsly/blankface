@@ -157,5 +157,192 @@
     "asset_id": 760311037,
     "asset_url": "https://github.com/mxbeardsly/blankface/releases/download/review-videos/202611171916-n2-stop-writing-just-circling-bac.mp4",
     "issue": 8
+  },
+  "202611181854-n1-only-book-one-thing-in-rome-va": {
+    "id": "202611181854-n1-only-book-one-thing-in-rome-va",
+    "niche": "n1",
+    "kind": "short",
+    "topic": "What happens if you only book one thing in advance in Rome: Colosseum, Vatican Museums or a restaurant",
+    "script": {
+      "title": "Only Book One Thing in Rome? Vatican or Colosseum?",
+      "hook_text": "One Booking. Rome. Pick Wisely.",
+      "beats": [
+        {
+          "narration": "Only one booking in Rome? Make it the Vatican Museums.",
+          "visual": "Vatican Museums entrance crowd"
+        },
+        {
+          "narration": "This is for a first trip, a few days, no spreadsheet. A timed slot typically skips the main general-admission queue, though waits vary by season and time of day.",
+          "visual": "long tourist queue outside"
+        },
+        {
+          "narration": "The cost: at the time of filming, roughly five euros extra per ticket online, and a fixed time. Confirm on the official Vatican site. Rain or sore feet, you're still going.",
+          "visual": "person checking phone ticket with official Vatican site on screen"
+        },
+        {
+          "narration": "Skip booking lunch. Plenty of trattorias take walk-ins. You trade about twenty minutes of waiting for freedom. Popular dinner spots are different. Those need a reservation.",
+          "visual": "Rome trattoria outdoor tables"
+        },
+        {
+          "narration": "Fork in the road: if the Colosseum matters more to you, book that instead. Also, the Vatican closes Sundays, except a free, packed last Sunday.",
+          "visual": "Colosseum exterior daytime"
+        },
+        {
+          "narration": "Ticket links are in the bio, and some may be affiliate links, so I may earn a commission at no extra cost to you. Tell me your city and your constraint in the comments, and I'll build the plan in a future video.",
+          "visual": "traveler holding marked-up map, on-screen text: 'Some links may be affiliate links'"
+        }
+      ],
+      "description": "If you can only reserve one thing in Rome, which one saves you the most time? A quick verdict on the Vatican Museums, the Colosseum and restaurants, with the trade-offs named. Disclosure: some links may be affiliate links, and I may earn a commission at no extra cost to you. Check opening days and prices on official sites before you go, as they change.",
+      "hashtags": [
+        "Rome",
+        "RomeTravel",
+        "TravelTips",
+        "Vatican",
+        "Colosseum",
+        "ItalyTravel"
+      ],
+      "pinned_comment": "Tell me your city and your constraint (kids, budget, mobility, days) and I'll build the plan in a future video. Disclosure: some links may be affiliate links.",
+      "resources": [
+        "GetYourGuide"
+      ],
+      "destination": "Rome",
+      "claims": [
+        "The Vatican Museums are normally closed on Sundays, except the last Sunday of each month when entry is free.",
+        "At the time of filming, the Vatican Museums charged an extra online booking fee of roughly five euros per ticket on top of the ticket price; this may change.",
+        "Colosseum entry is by timed ticket and slots can sell out in busy periods.",
+        "The Vatican Museums hold the Sistine Chapel."
+      ]
+    },
+    "check_notes": [
+      {
+        "text": "At the time of filming, roughly five euros extra per ticket online, and a fixed time.",
+        "issue": "The fee is a time-sensitive price stated as fact. The claims list hedges it with 'this may change', but the narration does not. It also gives no filming date, so viewers cannot tell how current it is.",
+        "fix": "Add the filming month and year on screen, say 'about five euros per ticket online at the time of filming, check the official site', and keep the on-screen confirmation text visible for the full segment."
+      },
+      {
+        "text": "the Vatican closes Sundays, except a free, packed last Sunday.",
+        "issue": "Incomplete. The Vatican Museums are also closed on certain public holidays (for example January 1, Easter Sunday, December 25), which a first-time visitor planning a few days could miss.",
+        "fix": "Add: 'It also closes on some public holidays, so check the official calendar before you go.'"
+      },
+      {
+        "text": "Colosseum entry is by timed ticket and slots can sell out in busy periods.",
+        "issue": "Overstated. Timed entry applies to the standard tickets, but availability and ticket types differ, and some options such as special access tours follow their own schedules.",
+        "fix": "Reword to: 'Many Colosseum tickets come with a timed entry slot, and popular times can sell out. Check the official site for the ticket type you want.'"
+      },
+      {
+        "text": "A timed slot typically skips the main general-admission queue, though waits vary by season and time of day.",
+        "issue": "Reasonable and hedged, but the 'typically skips' claim is unsourced and could be read as a guarantee.",
+        "fix": "Keep the hedge and add 'Timed slots usually reduce waits; they don't eliminate them.'"
+      }
+    ],
+    "credits": [
+      "Coverr-Free-Footage on Pixabay",
+      "Engin_Akyurt on Pixabay",
+      "Firmbee on Pixabay",
+      "Life-Of-Vids on Pixabay",
+      "Engin_Akyurt on Pixabay",
+      "ZT_OSCAR on Pixabay"
+    ],
+    "duration": 60.1,
+    "created": "2026-11-18T18:56:14.326043+00:00",
+    "asset_id": 764592174,
+    "asset_url": "https://github.com/mxbeardsly/blankface/releases/download/review-videos/202611181854-n1-only-book-one-thing-in-rome-va.mp4",
+    "issue": 9
+  },
+  "202611181856-n2-fix-the-resume-line-everyone-w": {
+    "id": "202611181856-n2-fix-the-resume-line-everyone-w",
+    "niche": "n2",
+    "kind": "short",
+    "topic": "Rewrite It Live: 'Responsible for managing social media accounts' into a bullet a recruiter remembers",
+    "script": {
+      "title": "Fix the Resume Line Everyone Writes About Social Media",
+      "hook_text": "Nobody remembers this resume line",
+      "beats": [
+        {
+          "narration": "Nobody remembers \"responsible for managing social media accounts.\"",
+          "visual": "bored recruiter reading resumes"
+        },
+        {
+          "narration": "Here's a made-up example with placeholder numbers: \"Grew Instagram followers from 4,000 to 9,500 in eight months, posting three short videos a week.\"",
+          "visual": "social media analytics screen"
+        },
+        {
+          "narration": "Same job. Now it shows what changed, and how.",
+          "visual": "typing on laptop keyboard"
+        },
+        {
+          "narration": "\"Responsible for\" describes the job. Recruiters want the result.",
+          "visual": "hiring manager reviewing papers"
+        },
+        {
+          "narration": "No growth numbers? Use speed or scale. Template: \"Managed [number] brand accounts and cut reply times from [X] to [Y].\"",
+          "visual": "customer service messages phone"
+        },
+        {
+          "narration": "Use real numbers only. Rounded is fine. Invented ones tend to collapse in interviews. UK CVs often lean toward a more understated tone, though it depends on the industry and employer.",
+          "visual": "job interview handshake office"
+        },
+        {
+          "narration": "Save this script for the next time you need it, and tell me in the comments which piece of career advice I should test next.",
+          "visual": "person saving notes phone"
+        }
+      ],
+      "description": "A quick rewrite of one of the most forgettable resume bullets there is. Swap the job description for a result, keep the numbers honest, and adjust the tone for your country. This tends to work better than adding more adjectives.",
+      "hashtags": [
+        "#resumetips",
+        "#careeradvice",
+        "#jobsearch",
+        "#socialmedia",
+        "#SayItBetterAtWork"
+      ],
+      "pinned_comment": "Which bullet should I rewrite next? Paste your weakest one below (remove company names) and I'll pick a few.",
+      "resources": [
+        "Your own analytics exports (follower growth, reply times, engagement) to find real numbers",
+        "Your last performance review or manager feedback for outcomes you can cite",
+        "The job posting you're applying to, to match the results it cares about"
+      ],
+      "destination": "",
+      "claims": [
+        "Instagram is a social media platform where accounts gain followers",
+        "In the UK, the document is usually called a CV; in the US it is usually called a resume",
+        "UK CVs generally lean toward a more understated tone than US resumes, though this varies by industry and employer"
+      ]
+    },
+    "check_notes": [
+      {
+        "text": "UK CVsN/A",
+        "issue": "Placeholder check: no such text. Remove this entry.",
+        "fix": "Remove this entry."
+      },
+      {
+        "text": "UK CVs generally lean toward a more understated tone than US resumes, though this varies by industry and employer",
+        "issue": "Unsourced generalization presented as a fact about national norms. It is hedged but still a claim with no citation, and the narration repeats it as guidance.",
+        "fix": "Add a source, or reword as personal experience or a general tip, e.g. \"Many recruiters suggest a more measured tone for UK CVs, so check examples in your field.\""
+      },
+      {
+        "text": "Invented ones tend to collapse in interviews.",
+        "issue": "Unsupported assertion. It is presented as a general observation without evidence.",
+        "fix": "Reword as advice rather than a factual claim, e.g. \"Numbers you can't back up can cause problems if an interviewer asks about them.\""
+      },
+      {
+        "text": "This tends to work better than adding more adjectives.",
+        "issue": "Unsupported comparative claim in the description. No evidence is given that this approach outperforms other edits.",
+        "fix": "Replace with a non-comparative statement, e.g. \"This swaps vague duties for concrete results.\""
+      }
+    ],
+    "credits": [
+      "AbdulWahab_092 on Pixabay",
+      "KyleBB on Pixabay",
+      "PhotoDhaba on Pixabay",
+      "HolgersFotografie on Pixabay",
+      "Amorn_mimi on Pixabay",
+      "SYG_Anime on Pixabay",
+      "Amorn_mimi on Pixabay"
+    ],
+    "duration": 51.5,
+    "created": "2026-11-18T18:58:12.197840+00:00",
+    "asset_id": 764598888,
+    "asset_url": "https://github.com/mxbeardsly/blankface/releases/download/review-videos/202611181856-n2-fix-the-resume-line-everyone-w.mp4",
+    "issue": 10
   }
 }
