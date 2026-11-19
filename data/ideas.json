@@ -1,11 +1,6 @@
 {
   "n2": [
     {
-      "topic": "'Quantify every bullet' is risky advice: what to do when you have no numbers",
-      "format": "Bad Advice, Better Script",
-      "why_it_hooks": "It challenges a resume rule everyone repeats. The verdict is tweak: don't invent metrics. Instead, use scale, frequency, scope, before/after comparisons and stakeholder names, with example bullets for roles that have no obvious KPIs."
-    },
-    {
       "topic": "'I'm a perfectionist' is a bad weakness answer, so here are three real ones that work",
       "format": "Rewrite It Live",
       "why_it_hooks": "The cliché answer gets rewritten line by line into an honest weakness, the specific fix you've already started, and the proof it's working. It includes a version for people who freeze and can't think of any weakness."
@@ -82,11 +77,6 @@
     }
   ],
   "n1": [
-    {
-      "topic": "What happens if you stay in Zone 3 instead of Zone 1 in London: the nightly saving versus the daily commute, with contactless fare capping",
-      "format": "What Happens If",
-      "why_it_hooks": "People assume cheaper hotels farther out automatically win. The video adds up the hotel saving against daily Tube time, fares and late-night journeys, and shows which type of traveller comes out ahead and which loses."
-    },
     {
       "topic": "Heathrow to central London: Elizabeth line vs Heathrow Express vs Piccadilly line, compared on time, price, luggage and your actual destination",
       "format": "What Happens If",
