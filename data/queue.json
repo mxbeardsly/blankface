@@ -852,5 +852,89 @@
     "asset_id": 776359252,
     "asset_url": "https://github.com/mxbeardsly/blankface/releases/download/review-videos/202611211740-n2-how-to-decline-a-recurring-mee.mp4",
     "issue": 16
+  },
+  "202611221753-n1-where-to-stay-in-melbourne-wha": {
+    "id": "202611221753-n1-where-to-stay-in-melbourne-wha",
+    "niche": "n1",
+    "kind": "short",
+    "topic": "Where to stay in Melbourne: CBD, Fitzroy or St Kilda, and what the Free Tram Zone does to your days",
+    "script": {
+      "title": "Where to Stay in Melbourne: What the Free Tram Zone Changes",
+      "hook_text": "Your hotel can change your tram bill",
+      "beats": [
+        {
+          "narration": "Where you sleep in Melbourne can change what trams cost you.",
+          "visual": "Melbourne tram street"
+        },
+        {
+          "narration": "First visit, three or four nights, mostly on foot? Look at CBD, Fitzroy or St Kilda.",
+          "visual": "traveler holding map"
+        },
+        {
+          "narration": "CBD: trams inside the Free Tram Zone cost nothing. Check the PTV zone map for exactly where it ends. My opinion: it has less street character.",
+          "visual": "Melbourne city tram"
+        },
+        {
+          "narration": "Fitzroy sits outside the zone, so you'll need a myki for trams. Good if your evenings are bars and cafés.",
+          "visual": "Fitzroy cafe street"
+        },
+        {
+          "narration": "St Kilda is my skip as a first base. The 96 tram runs there from the CBD, but beach days add tram time both ways.",
+          "visual": "St Kilda beach pier"
+        },
+        {
+          "narration": "Check current times and routes on the PTV journey planner before you book.",
+          "visual": "tram timetable sign"
+        },
+        {
+          "narration": "Tell me your city and your constraint in the comments, and I'll build the plan in a future video.",
+          "visual": "typing comment phone"
+        }
+      ],
+      "description": "CBD, Fitzroy or St Kilda for a first Melbourne stay, judged by the Free Tram Zone and what each suburb means for tram travel. St Kilda being a skip and the CBD having less street character are my opinions. Check current routes, times and the zone map on the PTV website before booking. Tell me your constraint and I'll build the plan.",
+      "hashtags": [
+        "#Melbourne",
+        "#MelbourneTravel",
+        "#WhereToStay",
+        "#TravelTips",
+        "#Fitzroy",
+        "#StKilda"
+      ],
+      "pinned_comment": "Tell me your city and your constraint (budget, kids, mobility, nights) and I'll build the plan in a future video. Check current tram times, routes and the Free Tram Zone map on the PTV website before booking.",
+      "resources": [],
+      "destination": "Melbourne",
+      "claims": [
+        "Melbourne has a Free Tram Zone in the central city where tram travel is free",
+        "Fitzroy is outside the Free Tram Zone",
+        "Paying for tram travel outside the zone uses a myki card",
+        "Route 96 tram runs from the CBD to St Kilda"
+      ]
+    },
+    "check_notes": [
+      {
+        "text": "The 96 tram runs there from the CBD",
+        "issue": "Route 96 runs between St Kilda Beach and East Brunswick and passes through the CBD. Describing it as running from the CBD to St Kilda is imprecise and could mislead viewers about where the route starts and ends.",
+        "fix": "Say that Route 96 runs from St Kilda Beach through the CBD, then confirm the route and stops on the PTV journey planner."
+      },
+      {
+        "text": "Fitzroy sits outside the zone, so you'll need a myki for trams.",
+        "issue": "Fitzroy is generally outside the Free Tram Zone, but the zone boundary runs close to the CBD edge and some stops are near it. The claim is stated as absolute without any hedge about boundary details, and the zone may change.",
+        "fix": "Say Fitzroy is generally outside the Free Tram Zone, that some stops sit near the boundary, and that viewers should check the current PTV zone map before booking."
+      }
+    ],
+    "credits": [
+      "agmclellan on Pixabay",
+      "tarlamu on Pixabay",
+      "Matthias_Groeneveld on Pixabay",
+      "xBriantcx on Pixabay",
+      "antonlukin on Pixabay",
+      "Matthias_Groeneveld on Pixabay",
+      "Activedia on Pixabay"
+    ],
+    "duration": 45.1,
+    "created": "2026-11-22T17:54:54.114076+00:00",
+    "asset_id": 779934865,
+    "asset_url": "https://github.com/mxbeardsly/blankface/releases/download/review-videos/202611221753-n1-where-to-stay-in-melbourne-wha.mp4",
+    "issue": 17
   }
 }
