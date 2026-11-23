@@ -1,11 +1,6 @@
 {
   "n2": [
     {
-      "topic": "'Just say no' is bad workload advice: the 'yes, and which one moves?' script",
-      "format": "Bad Advice, Better Script",
-      "why_it_hooks": "The verdict is bin or tweak. A flat no rarely works with a manager, so the replacement turns the pushback into a priority decision the manager has to make. It comes with a Slack version and a spoken version."
-    },
-    {
       "topic": "Rewrite It Live: the status update that buries the blocker in paragraph four",
       "format": "Rewrite It Live",
       "why_it_hooks": "Anyone who writes updates will see their own habit. The rewrite moves the status, the risk and the ask to the top, and the video explains why managers skim and how this protects you when things slip."
@@ -63,14 +58,69 @@
   ],
   "n1": [
     {
-      "topic": "Washington DC's free museums aren't all walk-in: which ones need timed passes, when to get them and how to build a day around the ones that don't",
-      "format": "What Happens If",
-      "why_it_hooks": "'Everything is free' is only half true, and finding out at the door wastes half a day. The video walks through the outcomes of booking early, booking late and turning up, then offers a flexible day plan."
-    },
-    {
       "topic": "Edinburgh or Glasgow for a three-day city break? A decision framework by season, budget, weather, and what you actually want to do",
       "format": "What Happens If",
       "why_it_hooks": "It's a choice many UK, US, CA and AU travellers actually face, and it gets a verdict instead of 'both are great'. The framework covers sightseeing density, walkability, music and food, and rail times, so it applies to other either/or city choices too."
+    },
+    {
+      "topic": "Skip It / Swap It: Rome. Trevi Fountain at midday, the Colosseum without a timed ticket, the Spanish Steps for sunset, the Pantheon now that it charges entry, and Vatican Museums at 10am. Each gets a verdict, a better time slot or an alternative.",
+      "format": "Skip It / Swap It",
+      "why_it_hooks": "Rome is one of the most searched city-break destinations, and the Pantheon's recent switch to paid entry makes it a surprising, checkable verdict. The 'do it differently' calls (time of day, booking) are more useful than a plain skip list."
+    },
+    {
+      "topic": "What happens if you stay in Zone 3 instead of Zone 1 in London: a day-by-day walk-through of the Tube/Elizabeth line commute, contactless fare capping, extra minutes each way and what the hotel saving actually buys you",
+      "format": "What Happens If",
+      "why_it_hooks": "It turns the vague 'stay outside the center' question into minutes, cost and stress. The twist is that the answer depends on which line your hotel is on, not on the zone number."
+    },
+    {
+      "topic": "Heathrow to central London, three ways: Heathrow Express vs Elizabeth line vs Piccadilly line. Door-to-door time, cost, luggage hassle, and which to pick by arrival hour and hotel area",
+      "format": "Logistics decision guide",
+      "why_it_hooks": "Almost everyone landing in London has to make this choice. The surprise is how small the time gap is compared with the price gap for many hotel locations."
+    },
+    {
+      "topic": "36 hours in San Francisco with a parent who can't do hills: a flat-route plan using the Embarcadero, Ferry Building, Crissy Field and the Presidio, with a 'we deliberately left out' list that includes Lombard Street and Alcatraz",
+      "format": "Hours in Place, One Constraint",
+      "why_it_hooks": "A group-type constraint that nearly every guide ignores. SF's reputation for hills is real, so the plan feels both practical and personal."
+    },
+    {
+      "topic": "Rainy-day Vancouver that beats the sunny-day plan: Granville Island Public Market, the Museum of Anthropology at UBC, and covered transit links, with walking times between stops",
+      "format": "Rain, crowds and bad-day backups",
+      "why_it_hooks": "Vancouver's rain is well known, and most visitors arrive with no plan B. Framing the wet plan as the better plan fits the channel's core promise."
+    },
+    {
+      "topic": "Melbourne or Sydney for a first 4-day Australia city break? A simple framework: weather by month, walkability, food vs landmarks, and cost of getting around, ending in a clear pick by traveller type",
+      "format": "Trip-planning decision framework",
+      "why_it_hooks": "Readers genuinely struggle to choose between these two. A framework with a clear verdict by traveller type beats a 'both are great' comparison."
+    },
+    {
+      "topic": "How many Smithsonian museums fit in one day in Washington DC? A realistic two-museum cap, walking times along the Mall, a lunch plan, and how to check which museums need free timed-entry passes",
+      "format": "Slow and sane pacing",
+      "why_it_hooks": "Free entry tempts people to cram in six museums. The video shows the real maths of time and tired feet, and proves that less is better."
+    },
+    {
+      "topic": "Skip It / Swap It: London. Madame Tussauds, the Changing of the Guard at Buckingham Palace, the London Eye, Camden Market on a Saturday, and Oxford Street shopping. Each gets a verdict and a swap such as the Horse Guards ceremony or a Thames walk.",
+      "format": "Skip It / Swap It",
+      "why_it_hooks": "It targets tourist staples that people feel obliged to do. Offering a specific alternative for each one makes it a decision tool rather than a rant."
+    },
+    {
+      "topic": "Toronto Pearson to downtown: UP Express vs TTC vs rideshare at rush hour. Real time ranges, cost, where each drops you, and which neighborhoods make each option the best choice",
+      "format": "Logistics decision guide",
+      "why_it_hooks": "The UP Express is a fast, fixed-time train, while road traffic into the city is unpredictable. Readers get a clear rule for choosing based on arrival time."
+    },
+    {
+      "topic": "48 hours in Quebec City in January: a cold-weather plan with indoor warm-up stops every 60-90 minutes, a realistic daylight schedule, and a list of outdoor things we deliberately left out",
+      "format": "Hours in Place, One Constraint",
+      "why_it_hooks": "Winter city breaks scare people off. Building the schedule around warm-up stops makes the cold feel manageable, and the topic is seasonal and specific."
+    },
+    {
+      "topic": "What happens if you turn up in Edinburgh in August without booking a bed: Fringe-season price spikes, the options that remain, how far out you end up, and what the commute does to your trip",
+      "format": "What Happens If",
+      "why_it_hooks": "It builds on the Edinburgh topic that already worked, but changes the angle from weather to timing. It shows a booking-window mistake with concrete outcomes in cost and stress."
+    },
+    {
+      "topic": "What to skip in San Francisco and what to do instead: Fisherman's Wharf, Pier 39, a last-minute Alcatraz plan, driving down Lombard Street, and a Golden Gate Bridge walk in morning fog. Verdicts include when to book ahead.",
+      "format": "Skip It / Swap It",
+      "why_it_hooks": "Alcatraz tickets are known to sell out in advance, so 'do it, but only if you book early' is a surprising and useful verdict. Fog on the bridge is a real issue that is rarely planned for."
     }
   ]
 }
