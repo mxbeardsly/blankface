@@ -61,5 +61,29 @@
     "title": "Stop Writing 'Just Circling Back' (Rewrite This Instead)",
     "at": "2026-11-22T19:54:23.751489+00:00",
     "status": "expired"
+  },
+  {
+    "niche": "n1",
+    "topic": "What happens if you plan six stops a day in Paris: a walk-through with real walking times, queues and a lunch that never happens",
+    "title": "What happens if you plan six stops a day in Paris: a walk-through with real walking times, queues and a lunch that never happens",
+    "status": "checker_rejected",
+    "reason": "Expecting ',' delimiter: line 1 column 5935 (char 5934)",
+    "at": "2026-11-23T21:41:14.471855+00:00"
+  },
+  {
+    "niche": "n1",
+    "topic": "24 hours in Chicago on a tight budget: Millennium Park, the Chicago Cultural Center, the Lakefront Trail and an architecture view from the river without paying for a cruise",
+    "title": "24 hours in Chicago on a tight budget: Millennium Park, the Chicago Cultural Center, the Lakefront Trail and an architecture view from the river without paying for a cruise",
+    "status": "checker_rejected",
+    "reason": "Expecting value: line 1 column 1 (char 0)",
+    "at": "2026-11-23T21:43:01.916346+00:00"
+  },
+  {
+    "niche": "n1",
+    "topic": "Skip It / Swap It: Sydney. The Harbour Bridge climb, Circular Quay crowds, Bondi on a summer weekend, and a Manly ferry ride on Opal as a cheap harbour cruise",
+    "title": "Skip It / Swap It: Sydney. The Harbour Bridge climb, Circular Quay crowds, Bondi on a summer weekend, and a Manly ferry ride on Opal as a cheap harbour cruise",
+    "status": "checker_rejected",
+    "reason": "Expecting ',' delimiter: line 1 column 1658 (char 1657)",
+    "at": "2026-11-23T21:44:44.622227+00:00"
   }
 ]
