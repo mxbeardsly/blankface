@@ -85,5 +85,23 @@
     "status": "checker_rejected",
     "reason": "Expecting ',' delimiter: line 1 column 1658 (char 1657)",
     "at": "2026-11-23T21:44:44.622227+00:00"
+  },
+  {
+    "id": "202611181854-n1-only-book-one-thing-in-rome-va",
+    "niche": "n1",
+    "kind": "short",
+    "topic": "What happens if you only book one thing in advance in Rome: Colosseum, Vatican Museums or a restaurant",
+    "title": "Only Book One Thing in Rome? Vatican or Colosseum?",
+    "at": "2026-11-24T00:09:44.693352+00:00",
+    "status": "expired"
+  },
+  {
+    "id": "202611181856-n2-fix-the-resume-line-everyone-w",
+    "niche": "n2",
+    "kind": "short",
+    "topic": "Rewrite It Live: 'Responsible for managing social media accounts' into a bullet a recruiter remembers",
+    "title": "Fix the Resume Line Everyone Writes About Social Media",
+    "at": "2026-11-24T00:09:49.358449+00:00",
+    "status": "expired"
   }
 ]
