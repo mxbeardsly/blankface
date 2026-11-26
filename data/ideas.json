@@ -1,11 +1,6 @@
 {
   "n2": [
     {
-      "topic": "What happens if you correct someone in the meeting when they present your idea as theirs",
-      "format": "What Happens If You...",
-      "why_it_hooks": "A clear point of tension that most people have lived through. It lays out the best case, the worst case and the likely case, then gives three levels of script: in the moment, right after the meeting, and in a written follow-up that puts your name on the idea."
-    },
-    {
       "topic": "'Never disagree with your boss in public' is too blunt: how to disagree in a meeting without a fight",
       "format": "Bad Advice, Better Script",
       "why_it_hooks": "It reframes a rule many people take literally. The verdict is tweak, with three scripts: asking a question that exposes the issue, adding a risk, and offering an alternative. It also covers when private really is better."
@@ -47,11 +42,6 @@
     }
   ],
   "n1": [
-    {
-      "topic": "What happens if you stay in Zone 3 instead of Zone 1 in London: a day-by-day walk-through of the Tube/Elizabeth line commute, contactless fare capping, extra minutes each way and what the hotel saving actually buys you",
-      "format": "What Happens If",
-      "why_it_hooks": "It turns the vague 'stay outside the center' question into minutes, cost and stress. The twist is that the answer depends on which line your hotel is on, not on the zone number."
-    },
     {
       "topic": "Heathrow to central London, three ways: Heathrow Express vs Elizabeth line vs Piccadilly line. Door-to-door time, cost, luggage hassle, and which to pick by arrival hour and hotel area",
       "format": "Logistics decision guide",
